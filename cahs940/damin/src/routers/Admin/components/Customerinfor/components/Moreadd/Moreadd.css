@@ -1,0 +1,118 @@
+.moreadd {
+  background: #ffff00;
+  padding-left: 1em;
+  padding-top: 1em;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.7em; }
+  .moreadd__template {
+    font-size: 0.75em;
+    height: 2em;
+    line-height: 2em;
+    border: 1px solid #26ae5f;
+    background: #aafdaf;
+    border-radius: 0.5em;
+    margin-right: 1.5em;
+    text-align: center;
+    color: #333; }
+    .moreadd__template a {
+      cursor: pointer;
+      color: #1296DB;
+      font-weight: bold; }
+      .moreadd__template a:hover {
+        color: #e85356; }
+  .moreadd__input input {
+    display: none; }
+  .moreadd__input label {
+    font-size: 0.875em;
+    display: block;
+    background: #26ae5f;
+    height: 1.7em;
+    line-height: 1.7em;
+    color: #fff;
+    width: 13em;
+    text-align: center;
+    padding: 0 0.5em;
+    border-radius: 0.8em;
+    margin: 0.5em 0; }
+    .moreadd__input label:hover {
+      color: #e85356;
+      cursor: pointer; }
+  .moreadd__progressbox {
+    height: 1em;
+    width: 15em;
+    padding-bottom: 0.2em; }
+    .moreadd__progressbox__warp {
+      display: flex;
+      align-items: center;
+      font-size: 0.75em;
+      color: #333; }
+    .moreadd__progressbox__bar {
+      padding-right: 0.5em; }
+  .moreadd__inpregion {
+    width: 20em;
+    height: 10em;
+    text-align: center;
+    line-height: 10em;
+    color: #FFF;
+    background: #ccc;
+    border-radius: 1em; }
+    .moreadd__inpregion:hover {
+      background-color: #aafdaf;
+      color: #333; }
+  .moreadd__tirp {
+    height: 3.57em;
+    margin: 0.8em 0; }
+    .moreadd__tirp__warp span {
+      display: block;
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      border: 1px solid #26ae5f;
+      background: #aafdaf;
+      border-radius: 0.5em;
+      margin-right: 1.5em;
+      text-align: center;
+      color: #333; }
+      .moreadd__tirp__warp span i {
+        color: #e85356; }
+    .moreadd__tirp__btn {
+      font-size: 0.875em;
+      display: block;
+      background: #26ae5f;
+      height: 1.7em;
+      line-height: 1.7em;
+      color: #fff;
+      width: 6em;
+      text-align: center;
+      padding: 0 0.5em;
+      border-radius: 0.8em;
+      margin: 0.5em 0; }
+      .moreadd__tirp__btn:hover {
+        color: #e85356;
+        cursor: pointer; }
+  .moreadd__tablewarp {
+    overflow: hidden;
+    height: 33em;
+    margin-bottom: 1.65em; }
+    .moreadd__tablewarp__cover {
+      overflow: scroll;
+      height: 34em; }
+    .moreadd__tablewarp__table {
+      font-size: 0.75em;
+      border-collapse: collapse;
+      text-align: center;
+      width: 100%; }
+      .moreadd__tablewarp__table th, .moreadd__tablewarp__table td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        padding: 0.3em; }
+      .moreadd__tablewarp__table th {
+        background-color: #26ae5f;
+        color: #fff; }
+      .moreadd__tablewarp__table td {
+        color: #333; }
+      .moreadd__tablewarp__table tbody tr:nth-of-type(odd) {
+        background-color: #fff; }
+      .moreadd__tablewarp__table tbody tr:nth-of-type(even) {
+        background-color: #9df3bf; }

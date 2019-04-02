@@ -1,0 +1,114 @@
+.query {
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.8em;
+  overflow: hidden;
+  height: 41em;
+  position: relative; }
+  .query__top {
+    font-size: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em 0.8em 0;
+    border-radius: 0.5em;
+    background: #aafdaf; }
+  .query__search {
+    background: #fff;
+    height: 3em;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .query__search input {
+      width: 20em;
+      height: 2em;
+      font-size: 0.875em;
+      padding-left: 0.3em; }
+    .query__search span {
+      display: block;
+      width: 3.2em;
+      height: 1.8em;
+      margin-left: 1em;
+      background: #26ae5f url("../../../../../../icons/search1_act.png") center center/40% content-box no-repeat;
+      border-radius: 0.3em; }
+      .query__search span:hover {
+        cursor: pointer;
+        background-image: url("../../../../../../icons/search1.png"); }
+  .query__tablebox {
+    overflow: hidden;
+    height: 31.8em; }
+  .query__tablewarp {
+    overflow: scroll;
+    height: 33em; }
+  .query__table {
+    font-size: 0.75em;
+    border-collapse: collapse;
+    text-align: center;
+    /* margin: 0 auto; */
+    width: 100%; }
+    .query__table th, .query__table td {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      padding: 0.3em; }
+    .query__table th {
+      background-color: #26ae5f;
+      color: #fff; }
+    .query__table td {
+      color: #333; }
+      .query__table td span {
+        padding: 0 0.8em;
+        color: #26ae5f; }
+        .query__table td span:hover {
+          color: #e85356;
+          cursor: pointer; }
+    .query__table tbody tr:nth-of-type(odd) {
+      background-color: #fff; }
+    .query__table tbody tr:nth-of-type(even) {
+      background-color: #9df3bf; }
+  .query__more {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); }
+    .query__more__close {
+      position: absolute;
+      top: 1.5em;
+      right: 1.5em;
+      width: 2.8em;
+      height: 2.8em;
+      border-radius: 50%;
+      background: #fff url("../../../../../../icons/close.png") center center/110% content-box no-repeat; }
+      .query__more__close:hover {
+        cursor: pointer;
+        background-image: url("../../../../../../icons/close_act.png"); }
+    .query__more img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 25em; }
+    .query__more__bankcardwarp {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 28em;
+      height: 35em;
+      background: #fff;
+      overflow: hidden; }
+    .query__more__bankcard {
+      width: 28em;
+      height: 36em;
+      overflow: scroll; }
+    .query__more__addbankcard {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 22em;
+      height: 28em;
+      background: #fff; }

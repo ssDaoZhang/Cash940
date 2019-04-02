@@ -1,0 +1,40 @@
+.mycalendar {
+  width: 18em;
+  margin-right: 5em;
+  position: relative; }
+  .mycalendar span {
+    position: relative;
+    display: block;
+    font-size: 0.75em;
+    height: 2em;
+    line-height: 2em;
+    width: 23.998em;
+    border: 1px solid #bbb;
+    background: #eee;
+    text-align: center;
+    color: #333;
+    border-radius: 0.3em; }
+    .mycalendar span i {
+      position: absolute;
+      top: 60%;
+      transform: translate(0, -50%);
+      right: 8%;
+      width: 1em;
+      height: 1em;
+      background: #eee url("../../icons/sanj.png") 0 0/contain content-box no-repeat; }
+    .mycalendar span .sanjactive {
+      background-image: url("../../icons/sanj_act.png"); }
+    .mycalendar span:hover {
+      cursor: pointer;
+      color: #e85356; }
+  .mycalendar__calendar {
+    position: absolute;
+    top: 1.59em;
+    left: 0;
+    width: 18em;
+    background: #ccc;
+    border: 1px solid #ccc; }
+    .mycalendar__calendar .my__calendarwarp {
+      width: 100%;
+      height: 100%;
+      font-size: 0.75em; }

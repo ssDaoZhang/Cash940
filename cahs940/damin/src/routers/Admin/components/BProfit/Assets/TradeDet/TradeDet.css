@@ -1,0 +1,138 @@
+.tradedet {
+  position: absolute;
+  height: 26em;
+  top: 5em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: auto;
+  background: #fff; }
+  .tradedet__top {
+    width: 55em;
+    margin-bottom: 0.8em; }
+    .tradedet__top__title {
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      color: #fff;
+      background: #26ae5f;
+      font-weight: bold; }
+    .tradedet__top__content__item1 {
+      font-size: 1.3em;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      color: #ff9900;
+      font-weight: bold; }
+    .tradedet__top__content__item2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 0.875em;
+      height: 1.5em;
+      line-height: 1.5em;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 0.5em; }
+    .tradedet__top__content__item3 {
+      display: flex; }
+      .tradedet__top__content__item3 .borderred {
+        border-top: 2px solid #e85356;
+        border-bottom: 2px solid #e85356; }
+      .tradedet__top__content__item3 .bordergreen {
+        border-top: 2px solid #26ae5f;
+        border-bottom: 2px solid #26ae5f; }
+      .tradedet__top__content__item3 .fontred {
+        color: #e85356; }
+      .tradedet__top__content__item3 .fontgreen {
+        color: #26ae5f; }
+      .tradedet__top__content__item3__it1 {
+        flex: 1;
+        margin: 0 1em; }
+        .tradedet__top__content__item3__it1__i1 {
+          font-size: 1.3em;
+          height: 2em;
+          line-height: 2em;
+          text-align: center;
+          font-weight: bold; }
+        .tradedet__top__content__item3__it1__i2 span {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em;
+          margin-right: 1.5em; }
+  .tradedet__content {
+    display: flex; }
+    .tradedet__content__lr {
+      flex: 1;
+      margin: 0 1em; }
+      .tradedet__content__lr .tctitle {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 1em; }
+      .tradedet__content__lr .backgroundred {
+        color: #e85356; }
+      .tradedet__content__lr .backgroundgreen {
+        color: #26ae5f; }
+      .tradedet__content__lr .tctirps {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em; }
+      .tradedet__content__lr .trconit {
+        margin: 0.3em 0;
+        border: 1px solid #ccc;
+        border-radius: 0.5em;
+        overflow: hidden; }
+        .tradedet__content__lr .trconit .bgred {
+          background: #e85356; }
+        .tradedet__content__lr .trconit .bggreen {
+          background: #26ae5f; }
+        .tradedet__content__lr .trconit .trconit1 {
+          display: flex;
+          align-items: center;
+          justify-content: space-between; }
+          .tradedet__content__lr .trconit .trconit1 .trconit11 {
+            color: #fff;
+            font-size: 0.75em;
+            height: 2em;
+            line-height: 2em;
+            margin: 0 1em;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap; }
+        .tradedet__content__lr .trconit .trconit2 {
+          font-size: 1em;
+          height: 2.5em;
+          line-height: 2.5em;
+          margin-left: 0.5em;
+          font-weight: bold; }
+      .tradedet__content__lr .moneystyle {
+        height: 1.5em;
+        line-height: 1.5em;
+        font-weight: bold; }
+      .tradedet__content__lr .moneyred {
+        color: #e85356; }
+      .tradedet__content__lr .moneygreen {
+        color: #26ae5f; }
+      .tradedet__content__lr .trconitsx {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em; }
+  .tradedet__close {
+    position: absolute;
+    bottom: 0.5em;
+    right: 1.5em;
+    font-weight: bold;
+    width: 3em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border: 2px solid #ccc;
+    color: #ccc;
+    text-align: center;
+    border-radius: 0.5em; }
+    .tradedet__close:hover {
+      cursor: pointer;
+      color: #e85356;
+      border-color: #e85356; }

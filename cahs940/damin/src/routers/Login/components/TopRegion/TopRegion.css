@@ -1,0 +1,61 @@
+.top__topregion {
+  height: 3.5em;
+  padding: 1em 0; }
+  .top__topregion::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both; }
+
+.top__logo {
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 50%;
+  background: #eee url("../../../../icons/logo.png") 0 0/contain content-box no-repeat;
+  margin-left: 1.5em;
+  float: left; }
+
+.top__name {
+  box-sizing: border-box;
+  padding: 1em 0;
+  height: 3.5em;
+  width: 7.5em;
+  background: #eee url("../../../../icons/name.jpg") 50% 50%/100% 100% content-box no-repeat;
+  margin-left: 1em;
+  float: left; }
+
+.top__toptext {
+  display: block;
+  width: 40em;
+  font-size: 0.75em;
+  line-height: 1.8em;
+  text-align: center;
+  float: right;
+  color: #333;
+  background-color: #aafdaf;
+  border: 1px solid #26ae5f;
+  border-radius: 0.9em;
+  margin: 1.458em 0; }
+
+.center {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 990px; }
+
+/* @media (min-width: 768px) {
+    html, body {
+      width: 750px;
+    }
+} */
+@media (min-width: 768px) {
+  .center {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .center {
+    width: 990px; } }
+
+@media (min-width: 1200px) {
+  .center {
+    width: 1170px; } }

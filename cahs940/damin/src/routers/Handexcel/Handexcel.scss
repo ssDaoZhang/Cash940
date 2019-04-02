@@ -1,0 +1,143 @@
+@mixin handic{
+    background-color: #FFF; 
+    color: #26ae5f;
+    border:1px solid #ccc;
+    box-shadow:
+    0 -5px 8px -7px rgba(81, 81,81,0.8),
+    0 -5px 8px -7px rgba(81, 81,81,0.8),
+    5px 0 8px -1px  rgba(81, 81,81,0.4),
+    5px 0 8px -1px  rgba(81, 81,81,0.8);
+    cursor : pointer;
+}
+.handexcel{
+    margin:2em 2em;
+    &__text{
+        font-size : 0.875em;
+        color : #333;
+    }
+
+    &__conwarp{
+        // display : flex;
+        width : 30em;
+        margin-bottom: 1em;
+        // border : 1px solid red;
+        height: 3.05em;
+    }
+
+    &__coninpwarp{
+        display: flex;
+        width : 13.75em;
+        align-content: center;
+        // background-color:yellow;
+        margin-bottom:0.3em;  
+    }
+    &__codeinput{
+        flex : 5;
+        box-sizing : border-box;
+        padding-left : 0.2em;  
+    }
+    &__codebtn{
+        flex : 1;
+        margin-left:0.5em; 
+        font-size: 0.875em;
+        background-color: #26ae5f;
+        color:#fff;
+        text-align: center;
+        border-radius: 0.3em;
+        border: 1px solid #fff;
+        &:hover{
+            @include handic;
+        }
+    }
+    &__mess{
+        height: 1.5em;
+        line-height:1.5em;
+        font-size: 0.875em;
+        color:#333;
+        border: 1px solid #26ae5f;
+        border-radius : 0.5em; 
+        background-color : #a7f7c8;
+    }
+
+    &__input{
+        display: none;
+    }
+
+    label{
+        display: block;
+        text-align: center;
+        font-size: 0.875em;
+        width: 14em;
+        height: 2em;
+        line-height: 2em;
+        border:1px solid #fff;
+        border-radius: 0.6em; 
+        background-color:#26ae5f; 
+        color:#FFF;
+        &:hover{
+            @include handic;
+        }
+
+    }
+    &__box{
+        width:13em;
+        height:1.75em;
+    }
+    &__warp{
+        display:flex;
+        align-content: center;
+        width:13em;
+        // background-color:yellow;
+        // align-content: center;
+        // justify-content: center;
+        // &::after{
+        //     content: '';
+        //     display: block;
+        //     clear: both;
+        //     height:0;
+        // }        
+    }
+    &__char{
+        flex:2;
+        display: block;
+        font-size:0.75em;
+        color:#333;
+        height:1em;
+        line-height: 1em;
+        margin:0.58em 0;
+    }
+    &__pro{
+        flex:1;
+        display: block;
+        font-size:0.75em;
+        color:#333;
+        height:1em;
+        line-height: 1em;
+        margin:0.58em 0;
+    }
+    &__bar{
+        height:1.375em;
+        // background: red;
+        padding:0.125em 0;
+    }
+    &__inpregion{
+        border: 1px solid #26ae5f;
+        width:20em;
+        height:10em;
+        line-height: 10em;
+        text-align: center;
+        font-size:0.875em;
+        color:#fff;
+
+    }
+    &__sign{
+        display:flex;
+        width:27.25em;
+        div{
+            flex:1;
+            span{
+                font-size:0.75em;
+            }
+        }       
+    }
+}

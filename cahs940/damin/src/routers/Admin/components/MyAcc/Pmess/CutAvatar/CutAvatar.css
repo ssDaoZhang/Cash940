@@ -1,0 +1,55 @@
+.cutavatarwarp {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); }
+
+.cutavatar {
+  width: 20em;
+  height: 35em;
+  padding: 2em;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border: 2px solid #26ae5f;
+  border-radius: 2em; }
+  .cutavatar__img {
+    width: 10em; }
+  .cutavatar__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em; }
+    .cutavatar__top span {
+      font-weight: bold;
+      color: #26ae5f;
+      font-size: 1em; }
+      .cutavatar__top span:hover {
+        cursor: pointer;
+        color: #e85356; }
+    .cutavatar__top input {
+      display: none; }
+    .cutavatar__top i {
+      font-style: normal;
+      font-size: 0.75em; }
+  .cutavatar__cropper {
+    width: 20em; }
+    .cutavatar__cropper img {
+      width: 30em; }
+  .cutavatar__btn {
+    position: absolute;
+    bottom: 1.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #26ae5f;
+    width: 6em;
+    font-size: 0.875em;
+    height: 1.8em;
+    line-height: 1.8em;
+    text-align: center;
+    color: #fff; }

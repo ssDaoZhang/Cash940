@@ -1,0 +1,40 @@
+.logwarp {
+  background: yellow;
+  height: 37.5em; }
+
+.logbox {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  width: 22.5em;
+  border: 2px solid #eee;
+  background-color: #fff; }
+  .logbox__item {
+    display: flex;
+    width: 18.75em;
+    border-radius: 1em;
+    margin: 1.8em 1.81em 0 1.81em;
+    overflow: hidden;
+    border: 1px solid #26ae5f; }
+    .logbox__item a {
+      flex: 1;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      background-color: #26ae5f;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; }
+      .logbox__item a:nth-of-type(1) {
+        border-right: 1px solid #ccc; }
+      .logbox__item a:hover {
+        color: #e85356;
+        cursor: pointer; }
+  .logbox .logbox__active {
+    background-color: #fff;
+    color: #26ae5f; }
+  .logbox__login {
+    position: relative;
+    padding: 0 1.875em;
+    width: 18.75em; }

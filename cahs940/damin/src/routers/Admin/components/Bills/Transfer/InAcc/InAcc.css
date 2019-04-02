@@ -1,0 +1,20 @@
+.inacccenter {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80%;
+  height: 50em;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+  .inacccenter thead tr {
+    color: #fff;
+    background: #26ae5f; }
+  .inacccenter tbody tr:nth-child(even) {
+    background-color: #fff; }
+  .inacccenter tbody tr:nth-child(odd) {
+    background-color: #aafdaf; }
+  .inacccenter tbody tr:hover {
+    color: #e85356;
+    cursor: pointer; }

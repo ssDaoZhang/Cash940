@@ -1,0 +1,21 @@
+.bprofit__content {
+  padding-top: 1em; }
+  .bprofit__content::after {
+    display: block;
+    content: '';
+    clear: both; }
+
+.bprofit__nav {
+  background: #26ae5f;
+  float: left;
+  width: 10em;
+  padding-top: 1em; }
+
+.bprofit__items {
+  margin-left: 10em;
+  width: calc(100% - 10em);
+  height: 100%;
+  overflow: hidden; }
+  .bprofit__items__route {
+    height: 100%;
+    width: 100%; }

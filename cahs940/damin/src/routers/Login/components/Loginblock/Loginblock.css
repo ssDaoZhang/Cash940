@@ -1,0 +1,173 @@
+.loginreg {
+  margin-top: 1em;
+  width: 100%; }
+  .loginreg__mess {
+    width: 100%;
+    height: 1.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .loginreg__mess__tips {
+      font-size: 0.875em;
+      color: #333;
+      font-weight: bold; }
+    .loginreg__mess__switch {
+      font-size: 0.75em;
+      color: #26ae5f; }
+      .loginreg__mess__switch:hover {
+        cursor: pointer;
+        color: #e85356; }
+  .loginreg__submit {
+    width: 100%;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #26ae5f; }
+    .loginreg__submit:hover {
+      cursor: pointer;
+      color: #e85356; }
+  .loginreg__messtips {
+    display: block;
+    margin-bottom: 4em;
+    margin-top: 1.2em;
+    font-size: 0.875em;
+    line-height: 1.2em;
+    height: 1.2em;
+    color: #e85356; }
+  .loginreg__tip {
+    display: block;
+    height: 1.2em;
+    line-height: 1.2em;
+    font-size: 0.75em;
+    margin: 0.5em auto 0em 0.5em;
+    color: #e85356; }
+
+.loginpho {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 4.25em; }
+  .loginpho__pho {
+    width: 18.625em;
+    height: 2.375em;
+    display: flex;
+    border: 1px solid #ccc; }
+    .loginpho__pho__ph1 {
+      width: 3.25em;
+      height: 2.375em;
+      display: inline-block;
+      background: #fff url("../../../../icons/login/pho.png") center center/70% content-box no-repeat;
+      border-right: 1px solid #ccc; }
+    .loginpho__pho__ph2 {
+      flex: 1;
+      font-size: 0.875em;
+      height: 2.715em;
+      box-sizing: border-box;
+      padding-left: 0.8em;
+      border-width: 0;
+      outline: none;
+      color: #ccc; }
+    .loginpho__pho__ph3 {
+      width: 8em;
+      height: 2.375em;
+      border-right: 1px solid #ccc;
+      position: relative; }
+  .loginpho__code {
+    width: 18.625em;
+    height: 2.375em;
+    display: flex;
+    margin-top: 2em;
+    align-items: center; }
+    .loginpho__code__cod1 {
+      width: 2.375em;
+      height: 2.375em;
+      display: inline-block;
+      background: #fff url("../../../../icons/login/code.png") center center/70% content-box no-repeat;
+      border: 1px solid #ccc; }
+    .loginpho__code__cod2 {
+      flex: 1;
+      font-size: 0.875em;
+      height: 2.857em;
+      box-sizing: border-box;
+      padding-left: 0.8em;
+      border-width: 0;
+      outline: none;
+      color: #ccc;
+      border: 1px solid #ccc;
+      border-left-width: 0; }
+    .loginpho__code__cod3 {
+      flex: 1;
+      font-size: 0.75em;
+      height: 3.167em;
+      line-height: 3.167em;
+      text-align: center;
+      margin-left: 0.5em;
+      background-color: #26ae5f;
+      border-radius: 0.3em;
+      color: #fff; }
+      .loginpho__code__cod3:hover {
+        cursor: pointer;
+        color: #e85356; }
+
+.loginAcc {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2.5em; }
+  .loginAcc__Acc {
+    width: 18.625em;
+    height: 2.375em;
+    display: flex;
+    border: 1px solid #ccc; }
+    .loginAcc__Acc__ac1 {
+      width: 2.375em;
+      height: 2.375em;
+      display: inline-block;
+      background: #fff url("../../../../icons/login/acc.png") center center/70% content-box no-repeat;
+      border-right: 1px solid #ccc; }
+    .loginAcc__Acc__ac2 {
+      flex: 1;
+      font-size: 0.875em;
+      height: 2.715em;
+      box-sizing: border-box;
+      padding-left: 0.8em;
+      border-width: 0;
+      outline: none;
+      color: #ccc; }
+  .loginAcc__pass {
+    width: 18.625em;
+    height: 2.375em;
+    display: flex;
+    border: 1px solid #ccc;
+    margin-top: 2em; }
+    .loginAcc__pass__pa1 {
+      width: 2.375em;
+      height: 2.375em;
+      display: inline-block;
+      background: #fff url("../../../../icons/login/passw.png") center center/70% content-box no-repeat;
+      border-right: 1px solid #ccc; }
+    .loginAcc__pass__pa2 {
+      flex: 1;
+      font-size: 0.875em;
+      height: 2.715em;
+      box-sizing: border-box;
+      padding-left: 0.8em;
+      border-width: 0;
+      outline: none;
+      color: #ccc; }
+  .loginAcc__ps {
+    margin-top: 0.5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .loginAcc__ps__ps1 {
+      font-size: 0.875em;
+      display: flex;
+      align-items: center; }
+    .loginAcc__ps__ps2 {
+      font-size: 0.75em;
+      color: #26ae5f; }
+      .loginAcc__ps__ps2:hover {
+        cursor: pointer;
+        color: #e85356; }

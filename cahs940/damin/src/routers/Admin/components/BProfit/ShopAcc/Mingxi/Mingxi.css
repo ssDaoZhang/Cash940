@@ -1,0 +1,28 @@
+.mingxi {
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: #fff;
+  width: 100%; }
+  .mingxi .mingxibtn {
+    font-size: 0.75em;
+    line-height: 2em;
+    height: 2em;
+    width: 6em;
+    text-align: center;
+    color: #fff;
+    background: #26ae5f;
+    margin: 0 1em; }
+    .mingxi .mingxibtn:hover {
+      cursor: pointer;
+      color: #e85356; }
+  .mingxi__btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em; }
+    .mingxi__btn .mingxibz {
+      height: 1.375em;
+      width: 6em;
+      border: 1px solid #ccc;
+      margin-right: 1em; }

@@ -1,0 +1,24 @@
+.shopm{
+    &__content{
+        padding-top:1em;
+        // background: red;
+        &:after{content:"";display:block;clear:both;}
+    }
+    &__nav{
+        float: left;
+        width: 10em;
+        height: 42.625em;
+        // padding-top:1em;
+        // background: yellowgreen;
+    }
+    &__items{
+        
+        // height: 42.5em;
+        background: #fff;
+        margin-left:10.8em;
+        // padding-left:0.8em;
+        border: 2px solid #ccc;
+        border-radius: 1em;
+        overflow: hidden;
+    }
+}

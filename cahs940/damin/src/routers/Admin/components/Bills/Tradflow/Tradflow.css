@@ -1,0 +1,287 @@
+.tradflow {
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.8em;
+  overflow: hidden;
+  height: 50em;
+  position: relative; }
+  .tradflow__top {
+    font-size: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em 0.8em;
+    border-radius: 0.5em;
+    background: #aafdaf; }
+  .tradflow__content {
+    height: calc(100% - 5.6em); }
+    .tradflow__content__seleshop {
+      margin: 1.5em 3em 0em;
+      display: flex;
+      align-items: center;
+      height: 1.5em; }
+      .tradflow__content__seleshop span {
+        display: block;
+        height: 2em;
+        line-height: 2em;
+        font-size: 0.75em; }
+      .tradflow__content__seleshop__iconbox {
+        width: 8em;
+        height: 1.3em;
+        border: 1px solid #ccc; }
+    .tradflow__content__setdate {
+      display: flex;
+      justify-content: space-between;
+      margin: 1em 0em 1em 3em; }
+      .tradflow__content__setdate__label {
+        font-size: 0.75em;
+        width: 11em;
+        height: 2.166em;
+        line-height: 2.166em; }
+    .tradflow__content__tablewarp {
+      height: calc(100% - 5.6em);
+      overflow-x: hidden;
+      overflow-y: scroll; }
+      .tradflow__content__tablewarp::-webkit-scrollbar {
+        width: 0.5em;
+        background-color: #F5F5F5; }
+      .tradflow__content__tablewarp::-webkit-scrollbar-track {
+        border-radius: 0.5em;
+        background-color: #9df3bf; }
+      .tradflow__content__tablewarp::-webkit-scrollbar-thumb {
+        border-radius: 0.5em;
+        background-color: #26ae5f; }
+      .tradflow__content__tablewarp__table {
+        font-size: 0.75em;
+        border-collapse: collapse;
+        text-align: center;
+        /* margin: 0 auto; */
+        width: 100%; }
+        .tradflow__content__tablewarp__table th, .tradflow__content__tablewarp__table td {
+          border: 1px solid #ccc;
+          border-collapse: collapse;
+          padding: 0.3em; }
+        .tradflow__content__tablewarp__table th {
+          background-color: #26ae5f;
+          color: #fff; }
+        .tradflow__content__tablewarp__table td {
+          color: #333; }
+          .tradflow__content__tablewarp__table td i {
+            font-style: normal;
+            padding: 0 0.8em; }
+          .tradflow__content__tablewarp__table td .coloryellow {
+            color: #FFA500; }
+            .tradflow__content__tablewarp__table td .coloryellow:hover {
+              color: #e85356;
+              cursor: pointer;
+              font-weight: bold; }
+          .tradflow__content__tablewarp__table td .colorred {
+            color: #FF0000; }
+            .tradflow__content__tablewarp__table td .colorred:hover {
+              color: #e85356;
+              cursor: pointer;
+              font-weight: bold; }
+          .tradflow__content__tablewarp__table td .colorgreen {
+            color: #26ae5f; }
+            .tradflow__content__tablewarp__table td .colorgreen:hover {
+              color: #e85356;
+              cursor: pointer;
+              font-weight: bold; }
+          .tradflow__content__tablewarp__table td span {
+            padding: 0 0.8em;
+            color: #26ae5f; }
+            .tradflow__content__tablewarp__table td span:hover {
+              color: #e85356;
+              cursor: pointer; }
+        .tradflow__content__tablewarp__table tbody tr:nth-of-type(odd) {
+          background-color: #fff; }
+        .tradflow__content__tablewarp__table tbody tr:nth-of-type(even) {
+          background-color: #9df3bf; }
+        .tradflow__content__tablewarp__table .income {
+          color: #e85356; }
+        .tradflow__content__tablewarp__table .say {
+          color: #26ae5f; }
+  .tradflow__operation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); }
+    .tradflow__operation .closebox {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      width: 2.5em;
+      height: 2.5em;
+      border-radius: 50%;
+      background: #fff url("../../../../../icons/close.png") 0 0/contain content-box no-repeat;
+      z-index: 10; }
+      .tradflow__operation .closebox:hover {
+        background-image: url("../../../../../icons/close_act.png");
+        cursor: pointer; }
+    .tradflow__operation__content {
+      position: relative;
+      width: 100%;
+      height: calc(100% - 22em); }
+      .tradflow__operation__content__ZDZ {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%; }
+        .tradflow__operation__content__ZDZ__item1 {
+          flex: 1;
+          height: 100%;
+          position: relative; }
+    .tradflow__operation__bottom {
+      width: 100%;
+      height: 22em; }
+      .tradflow__operation__bottom__item {
+        margin: 0 1em;
+        height: 100%;
+        background: #fff; }
+        .tradflow__operation__bottom__item__title {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em;
+          color: #fff;
+          background: #26ae5f;
+          text-align: center; }
+        .tradflow__operation__bottom__item__re1 {
+          display: flex;
+          align-items: center;
+          height: 1.5em;
+          color: #555;
+          margin-bottom: 0.3em; }
+          .tradflow__operation__bottom__item__re1 div {
+            font-size: 0.75em;
+            height: 2em;
+            line-height: 2em;
+            padding-left: 1em; }
+            .tradflow__operation__bottom__item__re1 div span {
+              display: inline-block;
+              height: 1.4em;
+              line-height: 1.4em;
+              margin: 0.258em 0;
+              text-align: center;
+              border-bottom: 1px solid #bbb;
+              vertical-align: middle;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap; }
+            .tradflow__operation__bottom__item__re1 div .tobirname {
+              width: 5em; }
+            .tradflow__operation__bottom__item__re1 div .tobirmoney {
+              width: 9em; }
+            .tradflow__operation__bottom__item__re1 div .tobirbring {
+              width: 5em; }
+            .tradflow__operation__bottom__item__re1 div .tobirtake {
+              width: 5em; }
+            .tradflow__operation__bottom__item__re1 div .tobircost {
+              width: 7em; }
+            .tradflow__operation__bottom__item__re1 div .tobirmethod {
+              width: 1.5em; }
+        .tradflow__operation__bottom__item__re2 {
+          display: flex;
+          align-items: center;
+          height: 18.75em; }
+          .tradflow__operation__bottom__item__re2__item1 {
+            flex: 1;
+            height: 100%; }
+            .tradflow__operation__bottom__item__re2__item1__title {
+              font-size: 0.75em;
+              width: 100%;
+              height: 2em;
+              line-height: 2em;
+              text-align: center;
+              background: #e85356;
+              color: #fff; }
+            .tradflow__operation__bottom__item__re2__item1__content {
+              width: 100%;
+              height: 17em;
+              overflow-x: hidden;
+              overflow-y: scroll; }
+              .tradflow__operation__bottom__item__re2__item1__content table {
+                font-size: 0.75em;
+                border-collapse: collapse;
+                text-align: center;
+                /* margin: 0 auto; */
+                width: 100%; }
+              .tradflow__operation__bottom__item__re2__item1__content th, .tradflow__operation__bottom__item__re2__item1__content td {
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                padding: 0.3em; }
+              .tradflow__operation__bottom__item__re2__item1__content th {
+                background-color: #e85356;
+                color: #fff; }
+              .tradflow__operation__bottom__item__re2__item1__content td {
+                color: #333; }
+              .tradflow__operation__bottom__item__re2__item1__content .inputbox {
+                padding: 0;
+                width: 8em;
+                height: 2em; }
+                .tradflow__operation__bottom__item__re2__item1__content .inputbox input {
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  font-size: 0.75em;
+                  text-align: center; }
+              .tradflow__operation__bottom__item__re2__item1__content tr:hover td {
+                color: #f7050d; }
+              .tradflow__operation__bottom__item__re2__item1__content tbody tr:nth-of-type(odd) {
+                background-color: #fff; }
+              .tradflow__operation__bottom__item__re2__item1__content tbody tr:nth-of-type(even) {
+                background-color: #eb8a8d; }
+                .tradflow__operation__bottom__item__re2__item1__content tbody tr:nth-of-type(even) .inputbox input {
+                  background-color: #eb8a8d; }
+          .tradflow__operation__bottom__item__re2__item2 {
+            flex: 1;
+            height: 100%; }
+            .tradflow__operation__bottom__item__re2__item2__title {
+              font-size: 0.75em;
+              height: 2em;
+              text-align: center;
+              line-height: 2em;
+              color: #fff;
+              background: #26ae5f; }
+            .tradflow__operation__bottom__item__re2__item2__content {
+              width: 100%;
+              height: 17em; }
+              .tradflow__operation__bottom__item__re2__item2__content table {
+                font-size: 0.75em;
+                border-collapse: collapse;
+                text-align: center;
+                /* margin: 0 auto; */
+                width: 100%; }
+              .tradflow__operation__bottom__item__re2__item2__content th, .tradflow__operation__bottom__item__re2__item2__content td {
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                padding: 0.3em; }
+              .tradflow__operation__bottom__item__re2__item2__content th {
+                background-color: #26ae5f;
+                color: #fff; }
+              .tradflow__operation__bottom__item__re2__item2__content td {
+                color: #333; }
+              .tradflow__operation__bottom__item__re2__item2__content tr:hover td {
+                color: #f7050d; }
+              .tradflow__operation__bottom__item__re2__item2__content tbody tr:nth-of-type(odd) {
+                background-color: #fff; }
+              .tradflow__operation__bottom__item__re2__item2__content tbody tr:nth-of-type(even) {
+                background-color: #aafdaf; }
+              .tradflow__operation__bottom__item__re2__item2__content__sub {
+                font-size: 0.875em;
+                background: #26ae5f;
+                color: #fff;
+                font-weight: bold;
+                height: 2em;
+                line-height: 2em;
+                text-align: center;
+                margin: 1em 5em 0.2em; }
+                .tradflow__operation__bottom__item__re2__item2__content__sub:hover {
+                  color: #e85356;
+                  cursor: pointer; }
+              .tradflow__operation__bottom__item__re2__item2__content__tript {
+                font-size: 0.75em;
+                color: red;
+                margin: 0 5.8333em; }

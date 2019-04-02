@@ -1,0 +1,114 @@
+.beforeicom{
+    &__queryshop{
+        display: flex;
+        align-items: center;
+        margin-left: 1em;
+        margin-bottom: 1em;
+        height: 1.5em;
+        span{
+            font-size:0.75em;
+            height: 2em;
+            line-height: 2em;
+        }
+        &__item{
+            // font-size:0.75em;
+            height: 1.5em;
+            border: 1px solid #ccc;
+            width:10em;
+            margin-left:0.5em;
+        }
+    }
+    &__querydate{
+        display: flex;
+        align-items: center;
+        // background: yellowgreen;
+        margin-left: 1em;
+        height: 1.5em;
+        margin-bottom: 1em;
+        .span{
+            font-size:0.75em;
+            height: 2em;
+            line-height: 2em;
+            margin-left:1em;
+        }
+        .beforeicom__querydate__item{
+            text-align: center;
+            width:10em;
+            border-bottom: 1px solid #333;
+            height: 1.5em;
+            margin: 0.2em 0;
+        }
+        /*取消日历的margin*/
+        .mycalendar{
+            margin-right: 0em;
+        }
+    }
+    &__querycust{
+        display: flex;
+        align-items: center;
+        margin-left: 1em;
+        height: 1.5em;
+        margin-bottom: 1em;
+        &__btn1{
+            font-size: 0.75em;
+            height: 2em;
+            line-height: 2em;
+            background: #26ae5f;
+            color:#fff;
+            width:10em;
+            text-align: center;
+            &:hover{
+                cursor: pointer;
+                color : #e85356;
+            }
+        }
+        &__tirps1{
+            font-style: normal;
+            font-size:0.75em;
+            line-height: 2em;
+            height: 2em;
+            margin-left:1em;
+        }
+        &__tirps2{
+            font-style: normal;
+            font-size:0.75em;
+            line-height: 2em;
+            height: 2em;
+            text-align: center;
+            width:10em;
+            border-bottom: 1px solid #333;
+            height: 1.5em;
+            margin: 0.2em 0;
+            width:25em;
+        }
+        &__btn2{
+            font-style: normal;
+            font-size:0.75em;
+            line-height: 2em;
+            height: 2em;
+            text-align: center;
+            background: #26ae5f;
+            color:#fff;
+            width:6em;
+            margin-left:1.5em;
+            &:hover{
+                cursor: pointer;
+                color : #e85356;
+            }
+        }
+    }
+    &__add{
+        margin-left:1.34em;
+        font-size:0.75em;
+        color:#fff;
+        background: #26ae5f;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        width: 10em;
+        &:hover{
+            cursor: pointer;
+            color:#e85356;
+        }
+    }
+}

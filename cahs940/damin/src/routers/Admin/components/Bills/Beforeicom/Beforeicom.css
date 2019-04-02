@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.beforeicom__queryshop {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  height: 1.5em; }
+  .beforeicom__queryshop span {
+    font-size: 0.75em;
+    height: 2em;
+    line-height: 2em; }
+  .beforeicom__queryshop__item {
+    height: 1.5em;
+    border: 1px solid #ccc;
+    width: 10em;
+    margin-left: 0.5em; }
+
+.beforeicom__querydate {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  height: 1.5em;
+  margin-bottom: 1em;
+  /*取消日历的margin*/ }
+  .beforeicom__querydate .span {
+    font-size: 0.75em;
+    height: 2em;
+    line-height: 2em;
+    margin-left: 1em; }
+  .beforeicom__querydate .beforeicom__querydate__item {
+    text-align: center;
+    width: 10em;
+    border-bottom: 1px solid #333;
+    height: 1.5em;
+    margin: 0.2em 0; }
+  .beforeicom__querydate .mycalendar {
+    margin-right: 0em; }
+
+.beforeicom__querycust {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  height: 1.5em;
+  margin-bottom: 1em; }
+  .beforeicom__querycust__btn1 {
+    font-size: 0.75em;
+    height: 2em;
+    line-height: 2em;
+    background: #26ae5f;
+    color: #fff;
+    width: 10em;
+    text-align: center; }
+    .beforeicom__querycust__btn1:hover {
+      cursor: pointer;
+      color: #e85356; }
+  .beforeicom__querycust__tirps1 {
+    font-style: normal;
+    font-size: 0.75em;
+    line-height: 2em;
+    height: 2em;
+    margin-left: 1em; }
+  .beforeicom__querycust__tirps2 {
+    font-style: normal;
+    font-size: 0.75em;
+    line-height: 2em;
+    height: 2em;
+    text-align: center;
+    width: 10em;
+    border-bottom: 1px solid #333;
+    height: 1.5em;
+    margin: 0.2em 0;
+    width: 25em; }
+  .beforeicom__querycust__btn2 {
+    font-style: normal;
+    font-size: 0.75em;
+    line-height: 2em;
+    height: 2em;
+    text-align: center;
+    background: #26ae5f;
+    color: #fff;
+    width: 6em;
+    margin-left: 1.5em; }
+    .beforeicom__querycust__btn2:hover {
+      cursor: pointer;
+      color: #e85356; }
+
+.beforeicom__add {
+  margin-left: 1.34em;
+  font-size: 0.75em;
+  color: #fff;
+  background: #26ae5f;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  width: 10em; }
+  .beforeicom__add:hover {
+    cursor: pointer;
+    color: #e85356; }

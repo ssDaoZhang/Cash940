@@ -1,0 +1,124 @@
+.assets {
+  position: relative;
+  overflow: hidden;
+  height: 60em; }
+  .assets__selectshop {
+    display: flex;
+    align-items: center;
+    margin: 1em 0 0 1.12em; }
+    .assets__selectshop__item1 {
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em; }
+    .assets__selectshop__item2 {
+      height: 1.65em;
+      width: 18.1em;
+      margin-left: 1em;
+      z-index: 1; }
+    .assets__selectshop__item3 {
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      background: #26ae5f;
+      color: #fff;
+      width: 4em;
+      margin-left: 1.5em; }
+      .assets__selectshop__item3:hover {
+        cursor: pointer;
+        color: #e85356; }
+    .assets__selectshop__item4 {
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      margin-left: 1.5em; }
+    .assets__selectshop__item5 {
+      height: 1.375em;
+      width: 6em;
+      border: 1px solid #ccc;
+      margin-left: 0.3em; }
+  .assets__conwarp {
+    width: 100%;
+    height: 52em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 1em; }
+  .assets__content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em; }
+    .assets__content .colorRed {
+      color: #e85356; }
+    .assets__content .colorGreen {
+      color: #26ae5f; }
+    .assets__content__item {
+      position: relative;
+      width: 20em;
+      border: 2px solid #ccc;
+      border-radius: 0.5em;
+      padding-bottom: 1.5em; }
+      .assets__content__item i {
+        display: block;
+        width: 1.5em;
+        height: 1.5em;
+        position: absolute;
+        right: 0.8em;
+        top: 0.8em; }
+      .assets__content__item .iconimgred {
+        background: #fff url("../../../../../icons/stud__red.png") 0 0/contain content-box no-repeat; }
+      .assets__content__item .iconimggreen {
+        background: #fff url("../../../../../icons/stud__green.png") 0 0/contain content-box no-repeat; }
+      .assets__content__item__it1 {
+        font-size: 0.875em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        font-weight: bold;
+        margin: 0.8em 0; }
+      .assets__content__item__it2 {
+        display: flex;
+        margin: 0 1.5em;
+        height: 1.5em;
+        border-bottom: 1px solid #333; }
+        .assets__content__item__it2:hover {
+          cursor: pointer;
+          color: #7c13f5; }
+        .assets__content__item__it2__i1 {
+          font-size: 0.75em;
+          height: 1em;
+          line-height: 1em;
+          margin-left: 0.8em;
+          margin-top: 0.8em; }
+    .assets__content__itemit2 {
+      display: flex;
+      margin: 3.8em 1.5em 0;
+      height: 1.5em;
+      border-bottom: 1px solid #333; }
+      .assets__content__itemit2:hover {
+        cursor: pointer;
+        color: #7c13f5; }
+      .assets__content__itemit2__i1 {
+        font-size: 0.75em;
+        height: 1em;
+        line-height: 1em;
+        margin-left: 0.8em;
+        margin-top: 0.8em; }
+  .assets__popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2; }
+    .assets__popup .apopclose {
+      position: absolute;
+      right: 1em;
+      top: 1em;
+      background: #fff url("../../../../../icons/close.png") 0 0/contain content-box no-repeat;
+      border-radius: 50%;
+      width: 2em;
+      height: 2em; }
+      .assets__popup .apopclose:hover {
+        cursor: pointer;
+        background-image: url("../../../../../icons/close_act.png"); }

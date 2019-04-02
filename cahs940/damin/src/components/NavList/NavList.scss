@@ -1,0 +1,77 @@
+.navlist{
+    &__title{
+        position : relative;
+        &::after{
+            content: '';
+            display: block;
+            position: absolute;
+            right : -1.2em;
+            top : 50%;
+            transform : translate(0, -50%); 
+            height : 0;
+            width : 0;
+            border : 0.6em solid transparent;
+            
+        }
+        &__arr {
+            position: absolute;
+            display: block;
+            top : 50%;
+            transform: translate(-80%, -30%);
+            right : 0;
+            width : 0.875em;
+            height : 0.875em;
+            background: #26ae5f url("../../icons/triangle.png") 0 0 / contain  content-box no-repeat;;
+        }
+        &__actlist{
+            width : 10em;
+            height : 0;
+            overflow: hidden;
+            transition: all 150ms;
+            z-index: 20;
+            /*
+                className={`navlist__title__actlist 
+                                                            ${ listFlag == ele.cflag  
+                                                            && 'navlist__title__actlist--active'}`} 
+            */
+            // &--active{
+            //         height : auto;
+            // }
+        }
+        &--active{
+            .navlist__title__arr{
+                background-image : url("../../icons/triangle_act.png");
+            }
+            &::after{
+                border-left-color : #26ae5f;
+            }
+        }
+    }
+    &__list{
+        background: #26ae5f ;
+        width : 10em;
+        float: left;
+        padding-top : 1.5em;
+        height: 40em; 
+    }
+    &__linkfont{
+        display: block;
+        font-size:0.875em;
+        color:#fff;
+        height: 1.5em;
+        line-height: 1.5em;
+        text-align: center;
+        padding:0.5em 0;
+        &:hover{
+            color:#e85356;
+        }
+    }
+    &__item{
+        background-color :  rgb(22, 228, 104);
+    }
+    &__content{
+        margin-left:10em;
+        height : 100%;
+    }
+
+}

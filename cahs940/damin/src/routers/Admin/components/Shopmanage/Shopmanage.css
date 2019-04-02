@@ -1,0 +1,18 @@
+.shopm__content {
+  padding-top: 1em; }
+  .shopm__content:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.shopm__nav {
+  float: left;
+  width: 10em;
+  height: 42.625em; }
+
+.shopm__items {
+  background: #fff;
+  margin-left: 10.8em;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  overflow: hidden; }

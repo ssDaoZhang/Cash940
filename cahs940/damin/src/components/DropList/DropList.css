@@ -1,0 +1,59 @@
+.droplist {
+  position: relative;
+  width: 100%;
+  font-size: 1em; }
+  .droplist__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .droplist__item span:nth-of-type(1) {
+      font-size: 0.75em;
+      color: #ccc;
+      padding-left: 0.5em; }
+    .droplist__item span:nth-of-type(2) {
+      font-size: 0.75em;
+      color: #333; }
+    .droplist__item i {
+      display: block;
+      height: 100%;
+      width: 1em;
+      background: #fff url("../../icons/login/arr.png") center center/100% content-box no-repeat;
+      padding-right: 0.2em; }
+    .droplist__item:hover {
+      cursor: pointer; }
+  .droplist__optionwarp {
+    position: absolute;
+    top: 2.435em;
+    width: 7.625em;
+    height: 8.44em;
+    overflow: hidden;
+    background: #fff; }
+  .droplist__option {
+    position: absolute;
+    height: 9.5em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background: #fff;
+    z-index: 10; }
+    .droplist__option li {
+      height: 1.7em;
+      background: #FFF;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 0.5em;
+      color: #333; }
+      .droplist__option li:hover {
+        background-color: #26ae5f;
+        color: #FFF;
+        cursor: pointer; }
+      .droplist__option li span {
+        font-size: 0.75em; }
+    .droplist__option .activeLi {
+      background-color: #26ae5f;
+      color: #FFF; }

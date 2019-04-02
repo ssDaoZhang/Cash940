@@ -1,0 +1,175 @@
+.tradedet{
+    position: absolute;
+    height: 26em;
+    top:5em;
+    left:50%;;
+    transform: translate(-50%, 0);
+    margin:auto;
+    background: #fff;
+    &__top{
+        width:55em;
+        margin-bottom: 0.8em;
+        &__title{
+            font-size:0.75em;
+            height: 2em;
+            line-height: 2em;
+            text-align: center;
+            color:#fff;
+            background: #26ae5f;
+            font-weight: bold;
+        }
+        &__content{
+            &__item1{
+                font-size:1.3em;
+                height: 2em;
+                line-height: 2em;
+                text-align: center;
+                color:rgb(255, 153, 0);
+                font-weight:bold;
+            }
+            &__item2{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-size:0.875em;
+                height: 1.5em;
+                line-height: 1.5em;
+                color:#333;
+                font-weight: bold;
+                margin-bottom: 0.5em;
+            }
+            &__item3{
+                display: flex;
+                .borderred{
+                    border-top: 2px solid #e85356;
+                    border-bottom:  2px solid #e85356;
+                }
+                .bordergreen{
+                    border-top: 2px solid #26ae5f;
+                    border-bottom: 2px solid #26ae5f;
+                }
+                .fontred{
+                    color:#e85356;
+                }
+                .fontgreen{
+                    color:#26ae5f;
+                }
+                &__it1{
+                    flex:1;
+                    margin: 0 1em;
+                    &__i1{
+                        font-size:1.3em;
+                        height: 2em;
+                        line-height: 2em;
+                        text-align: center;
+                        font-weight:bold;
+                    }
+                    &__i2{
+                        span{
+                            font-size:0.75em;
+                            height: 2em;
+                            line-height: 2em;
+                            margin-right: 1.5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__content{
+        display: flex;
+        &__lr{
+            flex:1;
+            margin: 0 1em;
+            .tctitle{
+                font-size:0.75em;
+                height: 2em;
+                line-height: 2em;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 1em;
+            }
+            .backgroundred{
+                color:#e85356;
+            }
+            .backgroundgreen{
+                color:#26ae5f;
+            }
+            .tctirps{
+                font-size:0.75em;
+                height:2em;
+                line-height: 2em;
+                // margin-bottom: 0.5em;
+            }
+            .trconit{
+                margin: 0.3em 0;
+                border: 1px solid #ccc;
+                border-radius: 0.5em;
+                overflow: hidden;
+                .bgred{
+                    background: #e85356;
+                }
+                .bggreen{
+                    background: #26ae5f;
+                }
+                .trconit1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .trconit11{
+                        color:#fff;
+                        font-size:0.75em;
+                        height: 2em;
+                        line-height: 2em;
+                        margin: 0 1em;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        //文本不换行
+                        white-space: nowrap;
+                    }
+                }
+                .trconit2{
+                    font-size:1em;
+                    height: 2.5em;
+                    line-height: 2.5em;
+                    margin-left:0.5em;
+                    font-weight: bold;
+                }
+            }
+            .moneystyle{
+                height: 1.5em;
+                line-height: 1.5em;
+                font-weight: bold;
+            }
+            .moneyred{
+                color:#e85356;
+            }
+            .moneygreen{
+                color:#26ae5f;
+            }
+            .trconitsx{
+                font-size: 0.75em;
+                height: 2em;
+                line-height: 2em;
+            }
+        }
+    }
+    &__close{
+        position: absolute;
+        bottom: 0.5em;
+        right: 1.5em;
+        font-weight: bold;
+        width:3em;
+        height: 1.5em;
+        line-height: 1.5em;
+        border:2px solid #ccc;
+        color:#ccc;
+        text-align: center;
+        border-radius: 0.5em;
+        &:hover{
+            cursor: pointer;
+            color:#e85356;
+            border-color: #e85356;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.custinfor {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  min-width: 1000px;
+  margin-top: 1em; }
+  .custinfor:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .custinfor__title {
+    position: relative; }
+    .custinfor__title::after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: -1.2em;
+      top: 50%;
+      transform: translate(0, -50%);
+      height: 0;
+      width: 0;
+      border: 0.6em solid transparent; }
+    .custinfor__title__arr {
+      position: absolute;
+      display: block;
+      top: 50%;
+      transform: translate(-80%, -30%);
+      right: 0;
+      width: 0.875em;
+      height: 0.875em;
+      background: #26ae5f url("../../../../icons/triangle.png") 0 0/contain content-box no-repeat; }
+    .custinfor__title__actlist {
+      width: 10em;
+      height: 0;
+      overflow: hidden;
+      transition: all 200ms; }
+      .custinfor__title__actlist--active {
+        height: 4.375em; }
+    .custinfor__title--active .custinfor__title__arr {
+      background-image: url("../../../../icons/triangle_act.png"); }
+    .custinfor__title--active::after {
+      border-left-color: #26ae5f; }
+  .custinfor__list {
+    background: #26ae5f;
+    width: 10em;
+    float: left;
+    padding-top: 1.5em;
+    height: 40em; }
+  .custinfor__linkfont {
+    display: block;
+    font-size: 0.875em;
+    color: #fff;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0.5em 0; }
+    .custinfor__linkfont:hover {
+      color: #e85356; }
+  .custinfor__item {
+    background-color: #16e468; }
+  .custinfor__content {
+    margin-left: 10em;
+    height: 100%; }

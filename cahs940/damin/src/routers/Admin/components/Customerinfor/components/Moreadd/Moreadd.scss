@@ -1,0 +1,164 @@
+.moreadd{
+    // mix-height : 42em;
+    background : #ffff00;
+    padding-left : 1em;
+    padding-top:1em; 
+    border: 2px solid #ccc;
+    // border-left: 0px;
+    border-radius: 1em;
+    margin-left: 0.7em;
+    // border-bottom-right-radius: 1em;
+    &__template{
+        font-size:0.75em;
+        height:2em;
+        line-height: 2em;
+        border: 1px solid#26ae5f;
+        background: #aafdaf;
+        border-radius: 0.5em;
+        margin-right: 1.5em;
+        text-align: center;
+        color:#333;
+        a{
+            cursor: pointer;
+            color:#1296DB;
+            font-weight: bold;
+            &:hover{
+                color:#e85356;
+            }
+        }        
+    }
+    &__input{
+      input{ display: none; } 
+      label{
+          font-size:0.875em;
+          display: block;
+          background: #26ae5f;
+          height:1.7em;
+          line-height:1.7em;
+          color:#fff;
+          width:13em;
+          text-align: center;
+          padding: 0 0.5em;
+          border-radius: 0.8em;
+          margin: 0.5em 0;
+          &:hover{
+              color:#e85356;
+              cursor: pointer;
+          }
+      } 
+    }
+    &__progressbox{
+        height:1em;
+        width:15em;
+        padding-bottom: 0.2em;
+        // background: green;
+        &__warp{
+            display : flex; 
+            align-items: center;
+            font-size : 0.75em;
+            color:#333;
+        }
+        &__bar{
+            padding-right: 0.5em;
+        }
+    }
+    &__inpregion{
+        width:20em;
+        height:10em;
+        text-align: center;
+        line-height: 10em;
+        color:#FFF;
+        background: #ccc;
+        border-radius: 1em;
+        &:hover{
+            background-color: #aafdaf;
+            color:#333;
+        }
+    }
+    &__tirp{
+        height:3.57em;
+        margin: 0.8em 0;
+       &__warp{
+            span{
+                display : block;
+                font-size : 0.75em;
+                height:2em;
+                line-height: 2em;
+                border: 1px solid#26ae5f;
+                background: #aafdaf;
+                border-radius: 0.5em;
+                margin-right: 1.5em;
+                text-align: center;
+                color:#333; 
+                i{
+                    color:#e85356;
+                }
+            }
+       } 
+       &__btn{
+        font-size:0.875em;
+        display: block;
+        background: #26ae5f;
+        height:1.7em;
+        line-height:1.7em;
+        color:#fff;
+        width:6em;
+        text-align: center;
+        padding: 0 0.5em;
+        border-radius: 0.8em;
+        margin: 0.5em 0;
+        &:hover{
+            color:#e85356;
+            cursor: pointer;
+        }
+       }
+    }
+    &__tablewarp{
+        // position: relative;
+        overflow: hidden;
+        height: 33em;
+        margin-bottom: 1.65em; 
+        // width: 100%;
+        &__cover{
+            overflow: scroll;
+            height: 34em;
+            
+            // &__thead{
+            //     display: block;
+            //     position: absolute;
+            //     top:0;
+            //     left:0;
+            //     width:calc(100%);
+            // }
+        }
+        &__table{        
+            font-size:0.75em;
+            border-collapse: collapse;
+            text-align: center;
+
+            width:100%;         
+            th,td{
+                border: 1px solid #ccc;
+                border-collapse:collapse;
+                padding:0.3em;
+            }
+            th{
+                background-color: #26ae5f;
+                color:#fff;
+            }
+            td{
+                color:#333;
+            }
+            tbody tr:nth-of-type(odd){            
+                background-color: #fff;        
+                }        
+            tbody tr:nth-of-type(even){            
+                background-color: #9df3bf;        
+            }
+            // &__tbody{
+            //     overflow: scroll;
+            //     height: 36em;
+            // }
+        }
+    }
+}

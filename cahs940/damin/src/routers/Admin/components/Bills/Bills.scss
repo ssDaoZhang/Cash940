@@ -1,0 +1,30 @@
+.bills{
+    &__content{
+        padding-top:1em;
+        // height:44em;
+        // background: yellowgreen;
+        &::after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+
+    }
+    &__nav{
+        // background: #26ae5f;
+        float: left;
+        width:10em;
+        // padding-top: 1em;
+
+    }
+    &__items{
+        margin-left : 10em;
+        width : calc(100% - 10em);
+        height : 100%;
+        overflow : hidden;
+        &__route{
+            // height: 100%;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.myacc__content {
+  padding-top: 1em;
+  height: 42em; }
+  .myacc__content::after {
+    display: block;
+    content: '';
+    clear: both; }
+
+.myacc__nav {
+  background: #26ae5f;
+  float: left;
+  width: 10em;
+  padding-top: 1em; }
+
+.myacc__items {
+  margin-left: 10em;
+  width: calc(100% - 10em);
+  height: 100%;
+  overflow: hidden; }
+  .myacc__items__pmess {
+    height: 100%;
+    width: 100%; }

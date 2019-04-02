@@ -1,0 +1,201 @@
+.newadd {
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.8em;
+  overflow: hidden;
+  height: 41em;
+  position: relative; }
+  .newadd h2 {
+    font-size: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em 0.8em;
+    border-radius: 0.5em;
+    background: #aafdaf; }
+  .newadd__mess {
+    display: flex; }
+    .newadd__mess__m1 {
+      flex: 1;
+      background: #ccc;
+      padding-left: 8em;
+      padding-top: 2em;
+      font-size: 0.875em; }
+      .newadd__mess__m1__name {
+        display: block;
+        margin-bottom: 1em; }
+        .newadd__mess__m1__name input {
+          padding-left: 0.3em; }
+      .newadd__mess__m1__sex {
+        display: flex;
+        margin-bottom: 1em; }
+        .newadd__mess__m1__sex__s {
+          margin-left: 0.5em; }
+          .newadd__mess__m1__sex__s input {
+            vertical-align: middle; }
+          .newadd__mess__m1__sex__s span {
+            margin-right: 0.5em; }
+      .newadd__mess__m1__cardtype {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em; }
+        .newadd__mess__m1__cardtype__list {
+          width: 6em;
+          height: 1.5em;
+          background: #fff;
+          border: 1px solid #ccc; }
+      .newadd__mess__m1__cardcode {
+        display: block;
+        margin-bottom: 1em; }
+        .newadd__mess__m1__cardcode input {
+          padding-left: 0.3em; }
+      .newadd__mess__m1__pho {
+        display: block;
+        margin-bottom: 1em; }
+        .newadd__mess__m1__pho input {
+          padding-left: 0.3em; }
+      .newadd__mess__m1__pic {
+        display: block;
+        margin-bottom: 1em; }
+      .newadd__mess__m1 img {
+        width: 18em;
+        height: 11.43em; }
+    .newadd__mess__m2 {
+      flex: 1.2;
+      background: yellow;
+      font-size: 0.875em;
+      padding-top: 2em; }
+      .newadd__mess__m2__name {
+        display: block;
+        margin-bottom: 1em;
+        margin-left: 8em; }
+        .newadd__mess__m2__name input {
+          padding-left: 0.3em; }
+      .newadd__mess__m2__bank {
+        display: block;
+        margin-left: 8em;
+        margin-bottom: 1em; }
+        .newadd__mess__m2__bank__droplist {
+          display: inline-block;
+          width: 11em;
+          height: 1.5em;
+          border: 1px solid #ccc;
+          background: #fff; }
+      .newadd__mess__m2__bankaddress {
+        display: block;
+        margin-left: 8em;
+        margin-bottom: 1em;
+        vertical-align: middle; }
+        .newadd__mess__m2__bankaddress__address {
+          display: inline-block;
+          font-size: 0.875em;
+          height: 1.6em;
+          line-height: 1.6em;
+          width: 12.5em;
+          border: 1px solid #ccc;
+          background: #fff;
+          padding-left: 0.5em;
+          color: #585757; }
+          .newadd__mess__m2__bankaddress__address:hover {
+            color: #e85356;
+            border-color: #2661ae;
+            cursor: pointer; }
+      .newadd__mess__m2__bcard {
+        display: block;
+        margin-left: 8em;
+        margin-bottom: 1em; }
+        .newadd__mess__m2__bcard input {
+          padding-left: 0.3em; }
+      .newadd__mess__m2__btnwarp {
+        margin-left: 8em;
+        margin-bottom: 0.5em;
+        margin-right: 18em; }
+        .newadd__mess__m2__btnwarp__btn1 {
+          float: left;
+          width: 10em;
+          height: 1.8em;
+          background: #26ae5f;
+          color: #fff;
+          line-height: 1.8em;
+          text-align: center;
+          border-radius: 0.2em; }
+          .newadd__mess__m2__btnwarp__btn1:hover {
+            color: #e85356;
+            cursor: pointer; }
+        .newadd__mess__m2__btnwarp__btn2 {
+          float: left;
+          width: 5em;
+          height: 1.8em;
+          background: #26ae5f;
+          color: #fff;
+          line-height: 1.8em;
+          text-align: center;
+          border-radius: 0.2em;
+          margin-left: 3em; }
+          .newadd__mess__m2__btnwarp__btn2:hover {
+            color: #e85356;
+            cursor: pointer; }
+        .newadd__mess__m2__btnwarp:after {
+          content: "";
+          display: block;
+          clear: both; }
+      .newadd__mess__m2__table {
+        font-size: 0.75em;
+        border-collapse: collapse;
+        text-align: center;
+        /* margin: 0 auto; */
+        width: 100%; }
+        .newadd__mess__m2__table th, .newadd__mess__m2__table td {
+          border: 1px solid #ccc;
+          border-collapse: collapse;
+          padding: 0.3em; }
+        .newadd__mess__m2__table th {
+          background-color: #26ae5f;
+          color: #fff; }
+        .newadd__mess__m2__table td {
+          color: #333; }
+          .newadd__mess__m2__table td span {
+            padding: 0 0.8em;
+            color: #26ae5f; }
+            .newadd__mess__m2__table td span:hover {
+              color: #e85356;
+              cursor: pointer; }
+        .newadd__mess__m2__table tbody tr:nth-of-type(odd) {
+          background-color: #fff; }
+        .newadd__mess__m2__table tbody tr:nth-of-type(even) {
+          background-color: #9df3bf; }
+  .newadd__submit {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 2em;
+    background: #26ae5f;
+    color: #fff;
+    width: 6em;
+    height: 1.8em;
+    line-height: 1.8em;
+    text-align: center;
+    border-radius: 0.9em;
+    font-size: 0.875em; }
+    .newadd__submit:hover {
+      color: #e85356;
+      cursor: pointer; }
+  .newadd__citybox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%; }
+    .newadd__citybox__switch {
+      position: absolute;
+      top: 1.5em;
+      right: 1.5em;
+      width: 2.8em;
+      height: 2.8em;
+      border-radius: 50%;
+      background: #fff url("../../../../../../icons/close.png") center center/110% content-box no-repeat; }
+      .newadd__citybox__switch:hover {
+        cursor: pointer;
+        background-image: url("../../../../../../icons/close_act.png"); }

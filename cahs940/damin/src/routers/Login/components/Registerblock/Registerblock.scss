@@ -1,0 +1,177 @@
+.registereg{
+    width:100%;
+    margin-top:0.8em;
+    // background-color:#f11ce0; 
+    &__mess{
+        display: block;
+        font-size: 0.75em;
+        color:#333;
+        background-color : #aafdaf;
+        border: 1px solid #26ae5f;    
+        height:4em;
+        line-height:1.5em;
+        width:25em;  
+        border-radius: 0.5em;
+        box-sizing: border-box;
+        padding: 0.5em 1.2em;
+        // margin-bottom:0.8em;
+        margin: 0 2.51em 2em 2.51em;
+    }
+    &__pho{
+        width:20em;
+        height: 2em;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        // margin-bottom:0;
+        margin: 0 1.187em 0 1.187em;
+        &__ph1{
+            // font-size: 16px;
+            width:2em;
+            height:2em;
+            display: block;
+            background: #fff url("../../../../icons/login/pho.png") center center / 70%  content-box no-repeat;
+            border-right: 1px solid #ccc; 
+        }
+        &__ph2{
+            flex:1;
+            font-size:0.75em;
+            height:2.666em;
+            box-sizing: border-box;
+            padding-left:0.8em;
+            border-width: 0;
+            outline: none;
+            color:#ccc;
+            border-right: 1px solid #ccc;
+            border-left:0;
+        }
+        &__ph3{
+            width:6em;
+            height:2em;
+            border-right:1px solid #ccc; 
+            position: relative;
+            background: #fff;
+            border-right: 1px solid #ccc;
+            border-left:0;
+        }
+        &__ph4{
+            display: block;
+            width:2em;
+            height:100%;
+            background-color:#26ae5f; 
+        }
+    }
+    &__pass{
+        width:20em;
+        height: 2em;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        margin: 0 1.187em 0 1.187em;
+        &__pa1{
+            width:2em;
+            height:2em;
+            display: inline-block;
+            background: #fff url("../../../../icons/login/passw.png") center center / 70%  content-box no-repeat;
+            border-right:1px solid #ccc; 
+        }
+        #nichen{
+            background: #fff url("../../../../icons/login/nich.png") center center / 70%  content-box no-repeat;
+        }
+        &__pa2{
+            flex:1;
+            font-size:0.75em;
+            height:2.666em;
+            box-sizing: border-box;
+            padding-left:0.8em;
+            border-width: 0;
+            outline: none;
+            color:#ccc;
+            border-right:1px solid #ccc;
+        }
+        &__pa3{
+            display: block;
+            width:2em;
+            height:100%;
+            background-color:#26ae5f; 
+        }
+    }
+    &__code{
+        width:20em;
+        height: 2.125em;
+        display: flex;
+        // margin-top: 2em;
+        align-items: center;
+        margin: 0 1.187em 0 1.187em;
+        // border: 1px solid #ccc;
+        &__cod1{
+            width:2em;
+            height:2em;
+            display: inline-block;
+            background: #fff url("../../../../icons/login/code.png") center center / 70%  content-box no-repeat;
+            border:1px solid #ccc; 
+        }
+        &__cod2{
+            flex:1;
+            font-size:0.75em;
+            height:2.85em;
+            box-sizing: border-box;
+            padding:0;
+            padding-left:0.8em;
+            border-width: 0;
+            outline: none;
+            color:#ccc;
+            border: 1px solid #ccc;
+            border-left-width:0; 
+        }
+        &__cod3{
+            flex:1;
+            font-size:0.75em;
+            height:2.666em;
+            line-height: 2.6em;
+            text-align: center;
+            margin-left:0.5em;
+            background-color: #26ae5f;
+            border-radius: 0.3em;
+            color:#fff;
+            &:hover{
+                cursor: pointer;
+                color: #e85356;
+            }
+        }
+    }
+    &__tip{
+        display: block;
+        height: 1.2em;
+        line-height: 1.2em;
+        font-size:0.75em;
+        margin: 0.2em auto 0.5em 2em;
+        color: #e85356;
+    }
+    &__submit{
+        // text-decoration:none;
+        // display: block;
+        width: 20em;
+        height: 2.5em;
+        line-height: 2.5em;
+        text-align: center;
+        color:#fff;
+        font-size: 1em;
+        font-weight: bold;
+        // margin-top: 2.5em;
+        background-color: #26ae5f;
+        margin: 0 1.187em 0 1.187em;
+        &:hover{
+            cursor: pointer;
+            color:#e85356;
+        }
+    }
+    &__messtips{
+        display: block;
+        margin:0.8em auto 2em 1.2em;
+        font-size:0.875em;
+        line-height:1.2em;
+        height: 1.2em;  
+        color:#e85356;
+    }
+}

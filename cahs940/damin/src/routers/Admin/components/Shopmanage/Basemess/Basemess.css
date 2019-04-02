@@ -1,0 +1,39 @@
+.basemess {
+  background: yellowgreen; }
+  .basemess__top {
+    font-size: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em 0.8em;
+    border-radius: 0.5em;
+    background: #aafdaf; }
+  .basemess__list {
+    height: 1.8em;
+    width: 24em;
+    background: #fff;
+    margin: 2em 0 0 3em;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    border-radius: 1em; }
+    .basemess__list__name {
+      font-size: 0.875em; }
+    .basemess__list__box {
+      flex: 1;
+      height: 1.5em;
+      background: #ccc;
+      margin: 0 1em; }
+    .basemess__list__btn {
+      font-size: 0.875em;
+      padding: 0.2em 0.8em;
+      background: #26ae5f;
+      color: #fff;
+      font-weight: bold;
+      height: 1.5em;
+      line-height: 1.5em;
+      width: 2.6em; }
+      .basemess__list__btn:hover {
+        color: #e85356; }

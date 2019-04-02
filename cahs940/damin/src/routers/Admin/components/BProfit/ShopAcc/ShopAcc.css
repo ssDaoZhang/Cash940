@@ -1,0 +1,141 @@
+.ShopAcc {
+  position: relative;
+  height: 52em; }
+  .ShopAcc__conbox {
+    width: 100%;
+    height: calc(100% - 3.358em);
+    overflow-x: hidden;
+    overflow-y: scroll; }
+    .ShopAcc__conbox__center {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%; }
+      .ShopAcc__conbox__center__acc {
+        background: #fff;
+        width: 28em;
+        border: 1px solid #26ae5f;
+        border-radius: 0.5em;
+        margin-bottom: 1.5em;
+        overflow: hidden; }
+        .ShopAcc__conbox__center__acc__top {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          background: #26ae5f;
+          color: #fff;
+          font-weight: bold; }
+          .ShopAcc__conbox__center__acc__top .itemodj {
+            font-size: 0.75em;
+            height: 2.5em;
+            line-height: 2.5em; }
+        .ShopAcc__conbox__center__acc__mid {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around; }
+          .ShopAcc__conbox__center__acc__mid .itemele {
+            font-size: 0.75em;
+            padding: 0.5em 0.8em;
+            height: 1em;
+            line-height: 1em;
+            margin: 0.8em 0;
+            background: #26ae5f;
+            color: #fff;
+            border-radius: 0.3em; }
+        .ShopAcc__conbox__center__acc__bot {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          height: 3em;
+          border-top: 1px solid #ccc; }
+          .ShopAcc__conbox__center__acc__bot span {
+            font-size: 0.75em;
+            height: 2em;
+            line-height: 2em;
+            width: 6em;
+            text-align: center;
+            color: #26ae5f;
+            font-weight: bold;
+            border: 1px solid #26ae5f;
+            border-radius: 0.3em; }
+            .ShopAcc__conbox__center__acc__bot span:hover {
+              cursor: pointer;
+              color: #e85356;
+              border-color: #e85356; }
+  .ShopAcc__detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); }
+    .ShopAcc__detail__con {
+      position: absolute;
+      top: 15%;
+      transform: translate(-50%, 0);
+      left: 50%;
+      background: #fff;
+      width: 50%; }
+      .ShopAcc__detail__con__top {
+        display: flex;
+        justify-content: space-between;
+        background: #26ae5f;
+        border-bottom: 1px solid #ccc; }
+        .ShopAcc__detail__con__top__right {
+          width: 8em; }
+          .ShopAcc__detail__con__top__right .Sdctright1 {
+            font-size: 0.875em;
+            color: #26ae5f;
+            height: 1.5em;
+            line-height: 1.5em;
+            margin: 0.8em 1.5em 0.5em 1.5em;
+            border: 1px solid #26ae5f;
+            text-align: center;
+            background: #fff; }
+            .ShopAcc__detail__con__top__right .Sdctright1:hover {
+              cursor: pointer;
+              color: #e85356;
+              border-color: #e85356; }
+          .ShopAcc__detail__con__top__right .Sdctright2 {
+            width: 5.5em;
+            height: 5.5em;
+            background: yellow;
+            margin: 0 1.25em; }
+        .ShopAcc__detail__con__top__left .Sdctleft {
+          margin: 2em 0 2em 2em;
+          font-size: 1em;
+          color: #fff;
+          font-weight: bold; }
+      .ShopAcc__detail__con__center {
+        display: flex;
+        justify-content: space-between; }
+        .ShopAcc__detail__con__center__right {
+          margin-top: 1em;
+          width: 8em;
+          background: #fff; }
+          .ShopAcc__detail__con__center__right .Sdccright {
+            display: block;
+            font-size: 0.875em;
+            color: #26ae5f;
+            height: 1.5em;
+            line-height: 1.5em;
+            margin: 0.8em 1.5em 0.5em 1.5em;
+            border: 1px solid #26ae5f;
+            text-align: center; }
+            .ShopAcc__detail__con__center__right .Sdccright:hover {
+              cursor: pointer;
+              color: #e85356;
+              border-color: #e85356; }
+        .ShopAcc__detail__con__center__left {
+          margin: 1.5em 0 1em 1em; }
+          .ShopAcc__detail__con__center__left .Sdccleft {
+            font-size: 0.75em;
+            height: 2.5em;
+            line-height: 2.5em; }
+  .ShopAcc__mingxi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); }

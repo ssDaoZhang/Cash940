@@ -1,0 +1,243 @@
+.incom {
+  border: 2px solid #ccc;
+  border-radius: 0.5em;
+  margin-left: 1em;
+  height: 50em; }
+  .incom__title {
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em 0.8em;
+    border-radius: 0.5em;
+    background: #aafdaf; }
+  .incom__select {
+    display: flex;
+    align-items: center;
+    height: 1.626em;
+    margin-left: 1em;
+    margin-bottom: 0.5em; }
+    .incom__select span {
+      height: 2.17em;
+      line-height: 2.17em;
+      font-size: 0.75em; }
+    .incom__select div {
+      margin-left: 0.5em;
+      height: 1.5em;
+      border: 1px solid #ccc; }
+  .incom__query {
+    display: flex;
+    align-items: center;
+    height: 1.626em;
+    margin-left: 1em;
+    margin-bottom: 0.5em; }
+    .incom__query span {
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      margin-right: 1em; }
+    .incom__query input {
+      font-size: 0.75em;
+      padding-left: 0.2em;
+      margin: 0.17em 0; }
+    .incom__query__calendar {
+      margin-left: 2em;
+      height: 1.375em;
+      border: 1px solid #ccc;
+      width: 12em; }
+    .incom__query__quer {
+      font-size: 0.75em;
+      margin-left: 2em;
+      height: 2em;
+      line-height: 2em;
+      font-weight: bold;
+      color: #fff;
+      background: #26ae5f;
+      text-align: center;
+      width: 5em; }
+      .incom__query__quer:hover {
+        cursor: pointer;
+        color: #e85356; }
+  .incom__customerpay {
+    margin: 0.5em 1em;
+    width: calc(100% - 2em); }
+    .incom__customerpay__it {
+      display: flex;
+      align-items: center; }
+      .incom__customerpay__it__temp {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        background: #26ae5f;
+        color: #fff;
+        text-align: center;
+        width: 6em;
+        margin-right: 1.5em; }
+        .incom__customerpay__it__temp:hover {
+          color: #e85356;
+          cursor: pointer; }
+    .incom__customerpay__tirps {
+      display: block;
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      margin: 0.5em 0em;
+      border: 1px solid #26ae5f;
+      background: #aafdaf;
+      color: #333;
+      border-radius: 0.3em;
+      text-align: center; }
+    .incom__customerpay__no__item1 {
+      display: flex;
+      align-items: center;
+      height: 1.5em; }
+      .incom__customerpay__no__item1__it {
+        height: 1.5em;
+        display: flex;
+        align-items: center;
+        margin-right: 1.5em; }
+        .incom__customerpay__no__item1__it__it1 {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em;
+          margin-right: 0.5em; }
+        .incom__customerpay__no__item1__it__it2 {
+          font-size: 0.75em;
+          height: 1.5em;
+          line-height: 1.5em;
+          border-bottom: 1px solid #000;
+          margin: 0.21em 0em 0.2em;
+          text-align: center;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          width: 6em; }
+      .incom__customerpay__no__item1__ir {
+        height: 1.5em;
+        display: flex;
+        align-items: center;
+        margin-right: 1.5em; }
+        .incom__customerpay__no__item1__ir__ir1 {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em;
+          margin-right: 0.5em; }
+        .incom__customerpay__no__item1__ir input {
+          font-size: 0.75em;
+          width: 10em;
+          padding-left: 0.2em; }
+        .incom__customerpay__no__item1__ir__ir2 {
+          border: 1px solid #ccc;
+          height: 1.25em;
+          line-height: 1.25em;
+          margin-left: 0.5em;
+          width: 5em; }
+    .incom__customerpay__no__have {
+      margin-top: 1em; }
+      .incom__customerpay__no__have__tirps {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em; }
+      .incom__customerpay__no__have__box {
+        padding-top: 0.5em;
+        border: 1px solid #26ae5f;
+        border-radius: 0.5em;
+        width: calc(100% - 2px);
+        height: 4em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        .incom__customerpay__no__have__box span {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em;
+          text-align: center;
+          padding: 0 0.5em;
+          margin: 0 0.5em;
+          background: #ccc;
+          color: #fff;
+          border-radius: 0.3em; }
+          .incom__customerpay__no__have__box span:hover {
+            color: #e85356;
+            cursor: pointer; }
+    .incom__customerpay__no__item2 {
+      position: relative;
+      margin-top: 0.8em;
+      width: 8em; }
+      .incom__customerpay__no__item2:hover .incom__customerpay__no__item2__warp {
+        height: 10em; }
+      .incom__customerpay__no__item2__it1 {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        color: #26ae5f; }
+        .incom__customerpay__no__item2__it1:hover {
+          cursor: pointer;
+          color: #e85356; }
+      .incom__customerpay__no__item2__warp {
+        position: absolute;
+        width: 48em;
+        top: 1.4em;
+        left: 0;
+        height: 0;
+        transition: all 300ms ease-in;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background: yellowgreen; }
+        .incom__customerpay__no__item2__warp__wap {
+          padding: 1em 0; }
+      .incom__customerpay__no__item2__it2 {
+        display: flex;
+        align-items: center;
+        margin: 0 1em;
+        justify-content: space-between; }
+        .incom__customerpay__no__item2__it2__ir1 {
+          display: flex;
+          align-items: center;
+          height: 1.5em; }
+          .incom__customerpay__no__item2__it2__ir1 .itemsname {
+            font-size: 0.75em;
+            height: 2em;
+            line-height: 2em;
+            margin-right: 0.5em; }
+          .incom__customerpay__no__item2__it2__ir1 .itemitem {
+            font-size: 0.75em;
+            height: 1.5em;
+            line-height: 1.5em;
+            border-bottom: 1px solid #000;
+            margin: 0.21em 0em 0.2em;
+            text-align: center;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap; }
+          .incom__customerpay__no__item2__it2__ir1__i1 {
+            width: 6em; }
+          .incom__customerpay__no__item2__it2__ir1__i2 {
+            width: 15em; }
+          .incom__customerpay__no__item2__it2__ir1__i3 {
+            width: 15em; }
+  .incom__table {
+    width: 100%;
+    height: 25.5em;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+    .incom__table thead th {
+      background: #26ae5f;
+      color: #fff; }
+    .incom__table tbody td i {
+      font-style: normal;
+      color: #26ae5f; }
+      .incom__table tbody td i:hover {
+        cursor: pointer;
+        color: #e85356; }
+    .incom__table tbody td .confirmed {
+      color: #ccc; }
+      .incom__table tbody td .confirmed:hover {
+        cursor: default;
+        color: #ccc; }
+    .incom__table tbody tr:nth-of-type(odd) {
+      background-color: #fff; }
+    .incom__table tbody tr:nth-of-type(even) {
+      background-color: #aafdaf; }

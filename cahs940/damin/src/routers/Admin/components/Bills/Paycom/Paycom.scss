@@ -1,0 +1,123 @@
+.paycom{
+    // background: red;
+    position: relative;
+    margin-left: 1em;
+    border:2px solid #ccc;
+    border-radius: 1em;
+    overflow: hidden;
+    &__title{
+        font-size: 1.4em;
+        font-weight: bold;
+        height: 1.4em;
+        line-height: 1.4em;
+        text-align: center;
+        padding: 0.5em 0;
+        margin: 0.5em 0.8em;
+        border-radius: 0.5em;
+        background: #aafdaf;
+    }
+    &__queryshop{
+        display: flex;
+        align-items: center;
+        margin: 1em 1.5em;
+        height: 1.5em;
+        span{
+            font-size:0.75em;
+        }
+        div{
+            font-size: 0.75em;
+            margin-left:1em;
+            border: 1px solid #ccc;
+            width:8em;
+            height: 2em;
+            line-height: 2em;
+        }
+    }
+    &__queryrecord{
+        display: flex;
+        align-items: center;
+        margin: 1em 1.5em;
+        height: 1.5em;
+    }
+    &__records{
+        margin:1em 1em;
+        background: red;
+        height: 34.25em;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        table{
+            font-size:0.75em;
+            border-collapse: collapse;
+            text-align: center;
+            /* margin: 0 auto; */
+            width:100%;
+        }
+        th,td{
+            border: 1px solid #ccc;
+            border-collapse:collapse;
+            padding:0.3em;
+        }
+        th{
+            background-color: #26ae5f;
+            color:#fff;
+        }
+        td{
+            color:#333;
+        }
+        // tr:hover{
+        //     td{
+        //         color:#f7050d;
+        //         // cursor: pointer;
+        //     }               
+        // }
+        tbody tr:nth-of-type(odd){            
+            background-color: #fff;        
+            }        
+        tbody tr:nth-of-type(even){            
+            background-color: #aafdaf;        
+        }
+        .lockitem{
+            width:15em;
+        }
+        .seedetails{
+            span{
+                color:#26ae5f;
+                &:hover{
+                    color:red;
+                    cursor: pointer;
+                }
+            }
+        }
+        .lockop{
+            padding:0;
+            display: flex;
+            align-items: center;
+            // width:15em;
+            input{
+                width:10em;
+                font-size:0.75em;
+                vertical-align:middle;
+                margin-right: 1em;
+                padding-left:0.2em;
+            }
+            span{
+                display: inline-block;
+                height: 1.834em;
+                line-height: 1.834em;
+                color:#26ae5f;
+                &:hover{
+                    color:red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &__lockdetails{
+        position: absolute;
+        top:0;
+        left:0;
+        background: rgba(0, 0, 0, 0.5);
+        width:100%;
+        height: 100%;
+    }
+}

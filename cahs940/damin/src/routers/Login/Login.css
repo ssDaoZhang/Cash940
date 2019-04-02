@@ -1,0 +1,35 @@
+.login {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .login__topregion {
+    height: 5.5em;
+    border-bottom: 2px solid #26ae5f; }
+  .login__medregion {
+    background: red;
+    position: relative;
+    width: 100%;
+    overflow: hidden; }
+
+.center {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 990px; }
+
+/* @media (min-width: 768px) {
+    html, body {
+      width: 750px;
+    }
+} */
+@media (min-width: 768px) {
+  .center {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .center {
+    width: 990px; } }
+
+@media (min-width: 1200px) {
+  .center {
+    width: 1170px; } }

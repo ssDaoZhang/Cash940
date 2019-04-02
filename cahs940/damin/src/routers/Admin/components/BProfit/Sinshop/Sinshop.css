@@ -1,0 +1,119 @@
+.sinshop {
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.8em;
+  overflow: hidden;
+  height: 41em;
+  position: relative; }
+  .sinshop__top {
+    font-size: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em 0.8em;
+    border-radius: 0.5em;
+    background: #aafdaf; }
+  .sinshop__content__seleshop {
+    margin: 1.5em 3em 0em;
+    display: flex;
+    align-items: center;
+    height: 1.5em; }
+    .sinshop__content__seleshop span {
+      display: block;
+      height: 1.714em;
+      line-height: 1.714em;
+      font-size: 0.875em; }
+    .sinshop__content__seleshop__iconbox {
+      width: 8em;
+      height: 1.3em;
+      border: 1px solid #ccc; }
+  .sinshop__content__seletime {
+    position: relative;
+    margin: 1.5em 0em 0em 3em;
+    height: 1.5em;
+    display: flex; }
+    .sinshop__content__seletime__tirp {
+      font-size: 0.875em;
+      height: 1.7143em;
+      line-height: 1.7143em;
+      margin-right: 0.5em; }
+    .sinshop__content__seletime__stimebox {
+      width: 18em;
+      margin-right: 5em;
+      position: relative; }
+      .sinshop__content__seletime__stimebox span {
+        position: relative;
+        display: block;
+        font-size: 0.875em;
+        height: 1.5715em;
+        line-height: 1.5715em;
+        width: 20.57em;
+        border: 1px solid #bbb;
+        background: #eee;
+        text-align: center;
+        color: #333;
+        border-radius: 0.3em; }
+        .sinshop__content__seletime__stimebox span i {
+          position: absolute;
+          top: 60%;
+          transform: translate(0, -50%);
+          right: 8%;
+          width: 1em;
+          height: 1em;
+          background: #eee url("../../../../../icons/sanj.png") 0 0/contain content-box no-repeat; }
+        .sinshop__content__seletime__stimebox span .sanjactive {
+          background-image: url("../../../../../icons/sanj_act.png"); }
+      .sinshop__content__seletime__stimebox__calendar {
+        position: absolute;
+        top: 1.4375em;
+        left: 0;
+        width: 18em;
+        background: #ccc;
+        border: 1px solid #ccc; }
+        .sinshop__content__seletime__stimebox__calendar .my__calendarwarp {
+          width: 100%;
+          height: 100%;
+          font-size: 0.75em; }
+  .sinshop__content__btn {
+    font-size: 0.875em;
+    margin-left: 4em;
+    margin-top: 1.5em;
+    width: 6em;
+    height: 1.7143em;
+    line-height: 1.7143em;
+    text-align: center;
+    background: #26ae5f;
+    color: #fff;
+    border-radius: 0.857em;
+    font-weight: bold; }
+    .sinshop__content__btn:hover {
+      cursor: pointer;
+      color: #e85356; }
+  .sinshop__content__profit {
+    margin: 1.5em 3em 0;
+    height: 1.5em;
+    display: flex; }
+    .sinshop__content__profit .messpro {
+      font-style: normal;
+      font-size: 0.875em;
+      height: 1.7143em;
+      line-height: 1.7143em;
+      margin-right: 0.5em; }
+    .sinshop__content__profit span {
+      height: 1.7143em;
+      line-height: 1.7143em; }
+    .sinshop__content__profit .fontw {
+      font-weight: bolder;
+      color: #26ae5f; }
+    .sinshop__content__profit div {
+      width: 12em;
+      height: 1.375em;
+      border: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      border-radius: 0.3em; }
+      .sinshop__content__profit div .boxwh {
+        font-size: 0.75em;
+        margin-left: 0.8em;
+        font-style: normal; }

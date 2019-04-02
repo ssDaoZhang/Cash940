@@ -1,0 +1,53 @@
+.cashdetails {
+  position: absolute;
+  top: 3.5em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: #fff;
+  width: 100%; }
+  .cashdetails__title {
+    font-size: 0.875em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background: #26ae5f;
+    color: #fff;
+    font-weight: bold; }
+  .cashdetails__calendar {
+    display: flex;
+    margin: 0.5em;
+    align-items: center; }
+    .cashdetails__calendar__btn {
+      background: #26ae5f;
+      color: #FFF;
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      font-weight: bold;
+      width: 4em; }
+      .cashdetails__calendar__btn:hover {
+        cursor: pointer;
+        color: #e85356; }
+  .cashdetails__table .incomr {
+    color: #e85356; }
+  .cashdetails__table .outcomg {
+    color: #26ae5f; }
+  .cashdetails__table .ycomy {
+    color: #a38e18; }
+  .cashdetails__table tbody tr:nth-of-type(odd) {
+    background-color: #fff; }
+  .cashdetails__table tbody tr:nth-of-type(even) {
+    background-color: #aafdaf; }
+  .cashdetails__table .tradestyle:hover {
+    cursor: pointer;
+    color: #e85356; }
+  .cashdetails__page {
+    margin-top: 0.3em;
+    height: 2em;
+    position: relative; }
+    .cashdetails__page__con {
+      position: absolute;
+      bottom: 0.3em;
+      left: 50%;
+      transform: translate(-50%, 0); }

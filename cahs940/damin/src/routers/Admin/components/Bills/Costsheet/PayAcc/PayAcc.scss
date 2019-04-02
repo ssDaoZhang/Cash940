@@ -1,0 +1,25 @@
+.payacccenter{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, 0);
+    width:80%;
+    height: 50em;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    thead tr{
+        color:#fff;
+        background: #26ae5f;
+    }
+    tbody tr:nth-child(even){
+        background-color:#fff; 
+    }
+    tbody tr:nth-child(odd){
+        background-color:#aafdaf; 
+    } 
+    tbody tr:hover{
+        color:#e85356;
+        cursor: pointer;
+    }
+}

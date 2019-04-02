@@ -1,0 +1,183 @@
+.lockdet {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 50em;
+  height: 36em;
+  background: #fff;
+  border: 2px solid #26ae5f;
+  border-radius: 0.8em; }
+  .lockdet__close {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background: #fff url("../../../../../../icons/close.png") 0 0/contain content-box no-repeat;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%; }
+    .lockdet__close:hover {
+      background-image: url("../../../../../../icons/close_act.png");
+      cursor: pointer; }
+  .lockdet__custMess {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    height: 1.5em; }
+    .lockdet__custMess div {
+      margin-right: 1.5em; }
+      .lockdet__custMess div span {
+        display: inline-block;
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em; }
+    .lockdet__custMess .lcit4 {
+      color: #e85356; }
+  .lockdet__lockMess {
+    align-items: center;
+    background: red;
+    height: 31.5em;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+    .lockdet__lockMess table {
+      font-size: 0.75em;
+      border-collapse: collapse;
+      text-align: center;
+      /* margin: 0 auto; */
+      width: 100%; }
+    .lockdet__lockMess th, .lockdet__lockMess td {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      padding: 0.3em; }
+    .lockdet__lockMess th {
+      background-color: #26ae5f;
+      color: #fff; }
+    .lockdet__lockMess td {
+      color: #333; }
+    .lockdet__lockMess tbody tr:nth-of-type(odd) {
+      background-color: #fff; }
+    .lockdet__lockMess tbody tr:nth-of-type(even) {
+      background-color: #aafdaf; }
+    .lockdet__lockMess .lockbtn {
+      color: #26ae5f; }
+      .lockdet__lockMess .lockbtn:hover {
+        color: #e85356;
+        cursor: pointer; }
+    .lockdet__lockMess .unlock {
+      display: flex;
+      align-items: center;
+      padding: 0; }
+      .lockdet__lockMess .unlock input {
+        margin-right: 1.5em;
+        padding-left: 0.3em;
+        font-size: 0.75em; }
+    .lockdet__lockMess .unlockitem {
+      width: 16em; }
+    .lockdet__lockMess__cards {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 22em;
+      height: 34em;
+      background: #fff;
+      border: 2px solid #26ae5f;
+      border-radius: 0.5em; }
+      .lockdet__lockMess__cards__tirps {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 1.5em;
+        margin-bottom: 0.3em;
+        padding: 0 1em; }
+        .lockdet__lockMess__cards__tirps__t1 {
+          height: 1.5em; }
+          .lockdet__lockMess__cards__tirps__t1 span {
+            display: inline-block;
+            font-size: 0.75em;
+            line-height: 2em;
+            height: 2em; }
+      .lockdet__lockMess__cards__title {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        background: #26ae5f;
+        color: #fff; }
+      .lockdet__lockMess__cards__item {
+        padding-bottom: 1em;
+        width: 100%;
+        height: 28.5em;
+        overflow-x: hidden;
+        overflow-y: scroll; }
+        .lockdet__lockMess__cards__item__it1 {
+          border: 1px solid #26ae5f;
+          margin: 0.5em 1em;
+          background: #fff; }
+          .lockdet__lockMess__cards__item__it1__title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 1.5em;
+            background: #26ae5f; }
+            .lockdet__lockMess__cards__item__it1__title .llcii {
+              height: 1.5em; }
+              .lockdet__lockMess__cards__item__it1__title .llcii span {
+                display: inline-block;
+                font-size: 0.75em;
+                height: 2em;
+                line-height: 2em;
+                color: #fff; }
+              .lockdet__lockMess__cards__item__it1__title .llcii__it {
+                margin-left: 0.5em; }
+            .lockdet__lockMess__cards__item__it1__title .llcii1 {
+              margin-left: 0.5em; }
+            .lockdet__lockMess__cards__item__it1__title .llcii2 {
+              margin-right: 0.5em; }
+          .lockdet__lockMess__cards__item__it1__content:hover {
+            background-color: #aafdaf;
+            cursor: pointer; }
+          .lockdet__lockMess__cards__item__it1__content .llciic {
+            margin-left: 1em;
+            height: 1.5em; }
+            .lockdet__lockMess__cards__item__it1__content .llciic span {
+              display: inline-block;
+              font-size: 0.75em;
+              height: 2em;
+              line-height: 2em; }
+            .lockdet__lockMess__cards__item__it1__content .llciic__it {
+              margin-left: 0.5em; }
+          .lockdet__lockMess__cards__item__it1__content .llciic3 {
+            width: 3.375em;
+            margin: 0 1em;
+            padding-bottom: 0.3em; }
+            .lockdet__lockMess__cards__item__it1__content .llciic3__it1 {
+              font-size: 0.75em;
+              height: 1.5em;
+              width: 4.5em;
+              line-height: 1.5em;
+              color: #26ae5f; }
+              .lockdet__lockMess__cards__item__it1__content .llciic3__it1:hover {
+                color: #e85356;
+                cursor: pointer; }
+            .lockdet__lockMess__cards__item__it1__content .llciic3__it2 {
+              width: 17em;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              height: 0;
+              overflow: hidden; }
+              .lockdet__lockMess__cards__item__it1__content .llciic3__it2 span {
+                font-size: 0.75em;
+                height: 1.5em;
+                line-height: 1.5em;
+                margin: 0.3em 0;
+                padding: 0 0.5em;
+                background: #ccc;
+                border-radius: 0.2em; }
+            .lockdet__lockMess__cards__item__it1__content .llciic3:hover .llciic3__it2 {
+              height: auto; }

@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #26ae5f; }
+  .navbar__center {
+    display: flex;
+    height: 3em;
+    align-items: center; }
+  .navbar__log {
+    height: 2em;
+    width: 8em;
+    background: #26ae5f url("../../../../icons/mycash940.png") 0 0/100% 100% no-repeat; }
+  .navbar__btn {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2.5em;
+    height: 1.5em; }
+    .navbar__btn__cell {
+      display: block;
+      font-size: 0.875em;
+      height: 1em;
+      line-height: 1em;
+      width: 5.8em;
+      text-align: center;
+      font-weight: bold;
+      color: #fff;
+      position: relative; }
+      .navbar__btn__cell:hover {
+        color: #e85356; }
+      .navbar__btn__cell::after {
+        position: absolute;
+        bottom: -1.2em;
+        left: 50%;
+        transform: translate(-50%, 0);
+        display: block;
+        content: '';
+        height: 0;
+        width: 0;
+        border: 0.7em solid transparent; }
+    .navbar__btn__active::after {
+      border-bottom-color: #fff; }
+
+.topList__btn a:link {
+  color: #000; }
+
+.topList__btn a:hover {
+  color: #44ffa2;
+  font-weight: bolder; }

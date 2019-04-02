@@ -1,0 +1,92 @@
+.paycom {
+  position: relative;
+  margin-left: 1em;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  overflow: hidden; }
+  .paycom__title {
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em 0.8em;
+    border-radius: 0.5em;
+    background: #aafdaf; }
+  .paycom__queryshop {
+    display: flex;
+    align-items: center;
+    margin: 1em 1.5em;
+    height: 1.5em; }
+    .paycom__queryshop span {
+      font-size: 0.75em; }
+    .paycom__queryshop div {
+      font-size: 0.75em;
+      margin-left: 1em;
+      border: 1px solid #ccc;
+      width: 8em;
+      height: 2em;
+      line-height: 2em; }
+  .paycom__queryrecord {
+    display: flex;
+    align-items: center;
+    margin: 1em 1.5em;
+    height: 1.5em; }
+  .paycom__records {
+    margin: 1em 1em;
+    background: red;
+    height: 34.25em;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+    .paycom__records table {
+      font-size: 0.75em;
+      border-collapse: collapse;
+      text-align: center;
+      /* margin: 0 auto; */
+      width: 100%; }
+    .paycom__records th, .paycom__records td {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      padding: 0.3em; }
+    .paycom__records th {
+      background-color: #26ae5f;
+      color: #fff; }
+    .paycom__records td {
+      color: #333; }
+    .paycom__records tbody tr:nth-of-type(odd) {
+      background-color: #fff; }
+    .paycom__records tbody tr:nth-of-type(even) {
+      background-color: #aafdaf; }
+    .paycom__records .lockitem {
+      width: 15em; }
+    .paycom__records .seedetails span {
+      color: #26ae5f; }
+      .paycom__records .seedetails span:hover {
+        color: red;
+        cursor: pointer; }
+    .paycom__records .lockop {
+      padding: 0;
+      display: flex;
+      align-items: center; }
+      .paycom__records .lockop input {
+        width: 10em;
+        font-size: 0.75em;
+        vertical-align: middle;
+        margin-right: 1em;
+        padding-left: 0.2em; }
+      .paycom__records .lockop span {
+        display: inline-block;
+        height: 1.834em;
+        line-height: 1.834em;
+        color: #26ae5f; }
+        .paycom__records .lockop span:hover {
+          color: red;
+          cursor: pointer; }
+  .paycom__lockdetails {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%; }

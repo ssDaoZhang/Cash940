@@ -1,0 +1,35 @@
+.ABCard {
+  border: 2px solid #26ae5f;
+  width: 18em;
+  height: 21em;
+  margin: 2em 2em;
+  border-radius: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em; }
+  .ABCard label {
+    display: block;
+    background: yellowgreen;
+    font-size: 0.875em;
+    margin: 1.2em 0;
+    padding-left: 0.6em;
+    color: #fff;
+    height: 1.5em;
+    line-height: 1.5em; }
+    .ABCard label input {
+      padding-left: 0.3em;
+      width: 12em; }
+  .ABCard__btn {
+    font-size: 0.875em;
+    background: #26ae5f;
+    color: #fff;
+    margin-top: 3em;
+    width: 6em;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 1em; }
+    .ABCard__btn:hover {
+      cursor: pointer;
+      color: #e85356; }

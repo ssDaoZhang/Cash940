@@ -1,0 +1,192 @@
+@charset "UTF-8";
+.pmess {
+  padding: 2em 2em;
+  height: 37.7em;
+  margin: 0 1.5em;
+  border: 2px solid #ccc;
+  background: #FFF;
+  border-radius: 1em;
+  position: relative; }
+  .pmess__box {
+    width: calc(100% - 4px);
+    height: calc(100% - 4px); }
+    .pmess__box__topreg {
+      background-color: #fff;
+      display: flex; }
+      .pmess__box__topreg__avatarwarp {
+        width: 4em;
+        height: 4em;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative; }
+        .pmess__box__topreg__avatarwarp i {
+          display: none;
+          font-style: normal;
+          position: absolute;
+          color: #fff;
+          font-size: 0.75em;
+          top: 0;
+          left: 0;
+          width: 3.3em;
+          height: 2.5em;
+          border-radius: 50%;
+          background: rgba(0, 0, 0, 0.3);
+          padding: 1.4em 1em;
+          text-align: center; }
+        .pmess__box__topreg__avatarwarp:hover i {
+          display: block; }
+      .pmess__box__topreg__avatar {
+        display: block;
+        width: 4em;
+        height: 4em;
+        background-color: #fff;
+        border-radius: 50%; }
+        .pmess__box__topreg__avatar:after {
+          display: block;
+          content: '更换头像';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 4em;
+          height: 4em;
+          background: rgba(0, 0, 0, 0.5); }
+      .pmess__box__topreg__sign {
+        margin-left: 0.5em;
+        width: 20em;
+        height: 4em; }
+      .pmess__box__topreg__sign1 {
+        display: flex;
+        align-items: center;
+        margin: 0.3em 0; }
+        .pmess__box__topreg__sign1__s11 {
+          font-size: 0.75em;
+          height: 1.8em;
+          width: 4.8em;
+          line-height: 1.8em;
+          text-align: center;
+          border: 0.08em solid #1296DB;
+          color: #1296DB;
+          border-radius: 0.5em; }
+        .pmess__box__topreg__sign1__s12 {
+          margin-left: 0.8em;
+          height: 1.35em;
+          display: flex;
+          align-items: center; }
+          .pmess__box__topreg__sign1__s12 i {
+            display: block;
+            height: 1.35em;
+            width: 1.35em;
+            background: #fff url("../../../../../icons/pmess/real.png") center center/70% content-box no-repeat; }
+          .pmess__box__topreg__sign1__s12 span {
+            font-size: 0.75em;
+            margin-left: 0.2em;
+            color: #ccc; }
+        .pmess__box__topreg__sign1__act1 i {
+          background-image: url("../../../../../icons/pmess/real_act.png"); }
+        .pmess__box__topreg__sign1__act1 span {
+          color: #1296DB; }
+      .pmess__box__topreg__sign2 {
+        display: flex;
+        align-items: center;
+        margin-top: 0.6em;
+        margin-bottom: 0.3em; }
+        .pmess__box__topreg__sign2__s21 {
+          font-size: 0.75em;
+          margin-right: 0.4em;
+          color: #333; }
+        .pmess__box__topreg__sign2__s22 {
+          height: 1.2em; }
+    .pmess__box__mess {
+      margin-top: 1.3em;
+      margin-left: 1.3em;
+      font-size: 0.75em;
+      color: #333; }
+      .pmess__box__mess__acc {
+        display: flex;
+        height: 2.5em;
+        width: 39em;
+        align-items: center; }
+        .pmess__box__mess__acc__title {
+          height: 2em;
+          line-height: 2em;
+          width: 5em; }
+        .pmess__box__mess__acc__code {
+          width: 13em; }
+        .pmess__box__mess__acc__tips {
+          margin-left: 0.6em;
+          width: 18em; }
+          .pmess__box__mess__acc__tips span {
+            color: #1296DB;
+            font-weight: bold; }
+            .pmess__box__mess__acc__tips span:hover {
+              cursor: pointer; }
+      .pmess__box__mess__pho {
+        margin-top: 0.2em;
+        display: flex;
+        align-items: center;
+        height: 2.5em;
+        margin-bottom: 1.2em; }
+        .pmess__box__mess__pho__title {
+          height: 2em;
+          line-height: 2em;
+          width: 5em; }
+        .pmess__box__mess__pho__code {
+          box-sizing: border-box;
+          padding-left: 0.3em;
+          width: 13em;
+          height: 2em;
+          line-height: 2em; }
+        .pmess__box__mess__pho__tips {
+          width: 3em;
+          margin-left: 0.6em; }
+          .pmess__box__mess__pho__tips span {
+            color: #1296DB;
+            font-weight: bold; }
+            .pmess__box__mess__pho__tips span:hover {
+              cursor: pointer; }
+      .pmess__box__mess__nick {
+        display: flex;
+        align-items: center;
+        height: 2.5em;
+        margin-bottom: 1.2em; }
+        .pmess__box__mess__nick__title {
+          height: 2em;
+          line-height: 2em;
+          width: 5em; }
+      .pmess__box__mess__sex {
+        display: flex;
+        align-items: center;
+        height: 2.5em;
+        margin-bottom: 1.2em; }
+        .pmess__box__mess__sex__title {
+          height: 2em;
+          line-height: 2em;
+          width: 5em; }
+        .pmess__box__mess__sex__input {
+          height: 2.5em;
+          line-height: 2.5em;
+          display: flex; }
+          .pmess__box__mess__sex__input label {
+            display: block;
+            margin-left: 1.5em;
+            height: 2.5em;
+            line-height: 2.5em;
+            width: 3em; }
+            .pmess__box__mess__sex__input label input {
+              vertical-align: middle;
+              margin-right: 0.5em;
+              width: 1.5em;
+              height: 1.5em; }
+      .pmess__box__mess input {
+        box-sizing: border-box;
+        padding-left: 0.2em;
+        font-size: 0.8em;
+        width: 13em;
+        height: 2em; }
+      .pmess__box__mess__tag {
+        margin: 0 1em;
+        display: block;
+        width: 15em;
+        height: 1.34em;
+        line-height: 1.34em;
+        color: #e85356; }

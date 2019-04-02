@@ -1,0 +1,20 @@
+.middlercenter {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 0);
+  width: 30em;
+  height: 40em;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+  .middlercenter thead tr {
+    color: #fff;
+    background: #26ae5f; }
+  .middlercenter tbody tr:nth-child(even) {
+    background-color: #fff; }
+  .middlercenter tbody tr:nth-child(odd) {
+    background-color: #aafdaf; }
+  .middlercenter tbody tr:hover {
+    color: #e85356;
+    cursor: pointer; }

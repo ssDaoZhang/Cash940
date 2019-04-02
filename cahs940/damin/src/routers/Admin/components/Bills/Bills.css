@@ -1,0 +1,18 @@
+.bills__content {
+  padding-top: 1em; }
+  .bills__content::after {
+    display: block;
+    content: '';
+    clear: both; }
+
+.bills__nav {
+  float: left;
+  width: 10em; }
+
+.bills__items {
+  margin-left: 10em;
+  width: calc(100% - 10em);
+  height: 100%;
+  overflow: hidden; }
+  .bills__items__route {
+    width: 100%; }

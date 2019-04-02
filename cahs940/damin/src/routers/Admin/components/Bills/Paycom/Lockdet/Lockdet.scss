@@ -1,0 +1,234 @@
+.lockdet{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    margin: auto;
+    width:50em;
+    height: 36em;
+    background: #fff;
+    border: 2px solid #26ae5f;
+    border-radius: 0.8em;
+    &__close{
+        position: absolute;
+        top:0.5em;
+        right: 0.5em;
+        background: #fff url("../../../../../../icons/close.png") 0 0 / contain  content-box no-repeat;
+        width:2em;
+        height: 2em;
+        border-radius: 50%;
+        &:hover{
+            background-image: url("../../../../../../icons/close_act.png");
+            cursor: pointer;
+        }
+    }
+    &__custMess{
+        display: flex;
+        align-items: center;
+        margin:1em;
+        height: 1.5em;
+        div{
+            margin-right: 1.5em;
+            span{
+                display: inline-block;
+                font-size:0.75em;
+                height: 2em;
+                line-height: 2em;
+            }
+        }
+        .lcit4{
+            color:#e85356;
+        }
+    }
+    &__lockMess{
+        // display: flex;
+        align-items: center;
+        background: red; 
+        height:31.5em;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        table{
+            font-size:0.75em;
+            border-collapse: collapse;
+            text-align: center;
+            /* margin: 0 auto; */
+            width:100%;
+        }
+        th,td{
+            border: 1px solid #ccc;
+            border-collapse:collapse;
+            padding:0.3em;
+        }
+        th{
+            background-color: #26ae5f;
+            color:#fff;
+        }
+        td{
+            color:#333;
+        }
+
+        tbody tr:nth-of-type(odd){            
+            background-color: #fff;        
+            }        
+        tbody tr:nth-of-type(even){            
+            background-color: #aafdaf;        
+        }
+        .lockbtn{
+            color:#26ae5f;
+            &:hover{
+                color:#e85356;
+                cursor: pointer;
+            }
+        }
+        .unlock{
+            display: flex;
+            align-items: center;
+            padding: 0;
+            input{
+                margin-right: 1.5em;
+                padding-left: 0.3em; 
+                font-size:0.75em;
+            }
+        }
+        .unlockitem{
+            width:16em;
+        }
+        &__cards{
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin: auto;
+            width:22em;
+            height: 34em;
+            background: #fff;
+            border: 2px solid #26ae5f;
+            border-radius: 0.5em;
+            // padding-bottom: 1em;
+            &__tirps{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 1.5em;
+                margin-bottom: 0.3em;
+                padding:0 1em;
+                &__t1{
+                    height: 1.5em;
+                    span{
+                        display: inline-block;
+                        font-size:0.75em;
+                        line-height: 2em;
+                        height: 2em;
+                    }
+                }
+            }
+            &__title{
+                font-size:0.75em;
+                height: 2em;
+                line-height: 2em;
+                text-align: center;
+                background: #26ae5f;
+                color:#fff;
+            }
+            &__item{
+                padding-bottom: 1em;
+                // margin-bottom:1em;
+                width: 100%;
+                height:28.5em;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                &__it1{
+                    border: 1px solid #26ae5f;
+                    margin: 0.5em 1em;
+                    background: #fff;
+                    &__title{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 1.5em;
+                        background: #26ae5f;                        
+                        .llcii{
+                            height: 1.5em;
+                            span{
+                                display: inline-block;
+                                font-size:0.75em;
+                                height: 2em;
+                                line-height: 2em;
+                                color:#fff;
+                            }
+                            &__it{
+                                margin-left:0.5em;
+                            }
+                        }
+                        .llcii1{
+                            margin-left:0.5em;
+                        }
+                        .llcii2{
+                            margin-right:0.5em;
+                        }
+                    }
+                    &__content{
+                        &:hover{
+                            background-color: #aafdaf;
+                            cursor: pointer;
+                        }
+                        .llciic{
+                            margin-left:1em;
+                            height: 1.5em;
+                            span{
+                                display: inline-block;
+                                font-size:0.75em;
+                                height: 2em;
+                                line-height: 2em;
+                            }
+                            &__it{
+                                margin-left:0.5em;
+                            }
+                        }
+                        .llciic3{
+                            // position: relative;
+                            width:3.375em;
+                            margin:0 1em;
+                            padding-bottom: 0.3em; 
+                            &__it1{
+                                font-size:0.75em;
+                                height: 1.5em;
+                                width: 4.5em;
+                                line-height: 1.5em;
+                                color:#26ae5f;
+                                &:hover{
+                                    color:#e85356;
+                                    cursor: pointer;
+                                }
+                            }
+                            &__it2{
+                                width:17em;
+                                display: flex;
+                                flex-wrap:wrap;
+                                justify-content: space-around;
+                                height: 0;
+                                overflow: hidden;
+                                span{
+                                    font-size: 0.75em;
+                                    height: 1.5em;
+                                    line-height: 1.5em;
+                                    margin:0.3em 0;
+                                    padding:0 0.5em;
+                                    background: #ccc;
+                                    border-radius: 0.2em;
+                                }
+                            }
+                            &:hover{
+                                .llciic3__it2{
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

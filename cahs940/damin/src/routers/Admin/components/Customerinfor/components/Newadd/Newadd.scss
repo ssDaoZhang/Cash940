@@ -1,0 +1,250 @@
+.newadd{
+    border:2px solid #ccc;
+    border-radius: 1em;
+    margin-left : 0.8em; 
+    overflow: hidden;
+    height:41em;
+    position: relative;
+    h2{
+        font-size:1.4em;
+        height:1.4em;
+        line-height:1.4em;
+        text-align: center;
+        padding: 0.5em 0;
+        margin: 0.5em 0.8em;
+        border-radius: 0.5em;
+        background: #aafdaf;
+    }
+    &__mess{
+        display: flex;
+        &__m1{
+            flex:1;
+            background:#ccc;
+            padding-left:8em; 
+            padding-top:2em;
+            font-size:0.875em;
+            &__name{
+                display: block;
+                margin-bottom: 1em;
+                input{
+                    padding-left:0.3em; 
+                }
+            }
+            &__sex{
+                display: flex;
+                margin-bottom: 1em;
+                &__s{
+                    margin-left:0.5em;
+                    input{
+                        vertical-align:middle;
+                    }
+                    span{
+                        margin-right:0.5em;
+                    }
+                }
+
+            }
+            &__cardtype{
+                display : flex;
+                align-items : center;
+                margin-bottom: 1em;
+                &__list{
+                    width : 6em;
+                    height : 1.5em;
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    // padding-left:0.5em; 
+                }
+            }
+            &__cardcode{
+                display: block;
+                margin-bottom: 1em;
+                input{
+                    padding-left:0.3em; 
+                }
+            }
+            &__pho{
+                display: block;
+                margin-bottom: 1em;   
+                input{
+                    padding-left:0.3em; 
+                }             
+            }
+
+            &__pic{
+                display: block;
+                margin-bottom: 1em;
+            }
+            img{
+                width : 18em;
+                height : 11.43em;
+            }
+        }
+        &__m2{
+            flex:1.2;
+            background: yellow;
+            font-size:0.875em;
+            // padding-left:5em; 
+            padding-top:2em;
+            &__name{
+                display: block;
+                margin-bottom:1em;
+                margin-left:8em;
+                input{
+                    padding-left:0.3em; 
+                }
+            }
+            &__bank{
+                display: block;
+                margin-left:8em;
+                margin-bottom:1em;
+                &__droplist{
+                    display: inline-block;
+                    // vertical-align:middle;
+                    width: 11em;
+                    height: 1.5em;
+                    border: 1px solid #ccc;
+                    background: #fff;
+                }
+            }
+            &__bankaddress{
+                display: block;
+                margin-left:8em;
+                margin-bottom:1em;
+                vertical-align:middle;
+                &__address{
+                    display: inline-block;
+                    font-size:0.875em;
+                    height: 1.6em;
+                    line-height: 1.6em;
+                    width:12.5em;
+                    border: 1px solid #ccc;
+                    background: #fff;
+                    padding-left:0.5em; 
+                    color:#585757;
+                    // vertical-align:middle;
+                    &:hover{
+                        color:#e85356;
+                        border-color: #2661ae;
+                        cursor: pointer;
+                    }
+                }
+            }
+            &__bcard{
+                display: block;
+                margin-left:8em;
+                margin-bottom:1em;
+                input{
+                    padding-left:0.3em; 
+                }
+            }
+            &__btnwarp{
+                margin-left:8em;
+                margin-bottom: 0.5em;
+                margin-right: 18em;
+                &__btn1{
+                    float: left;
+                    width:10em;
+                    height: 1.8em;
+                    background: #26ae5f;
+                    color:#fff;
+                    line-height: 1.8em;
+                    text-align: center;
+                    border-radius: 0.2em;
+                    &:hover{
+                        color:#e85356;
+                        cursor: pointer;
+                    }
+                }
+                &__btn2{
+                    float:left;
+                    width: 5em;
+                    height: 1.8em;
+                    background: #26ae5f;
+                    color:#fff;
+                    line-height: 1.8em;
+                    text-align: center;
+                    border-radius: 0.2em;
+                    margin-left:3em;
+                    &:hover{
+                        color:#e85356;
+                        cursor: pointer;
+                    }
+                }
+                &:after{content:"";display:block;clear:both;}
+            }
+            &__table{
+                font-size:0.75em;
+                border-collapse: collapse;
+                text-align: center;
+                /* margin: 0 auto; */
+                width:100%;
+                th,td{
+                    border: 1px solid #ccc;
+                    border-collapse:collapse;
+                    padding:0.3em;
+                }
+                th{
+                    background-color: #26ae5f;
+                    color:#fff;
+                }
+                td{
+                    color:#333;
+                    span{
+                        padding:0 0.8em;
+                        color:#26ae5f;
+                        &:hover{
+                            color:#e85356;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                tbody tr:nth-of-type(odd){            
+                    background-color: #fff;        
+                    }        
+                tbody tr:nth-of-type(even){            
+                    background-color: #9df3bf;        
+                }
+            }
+        }
+    }
+    &__submit{
+        position: absolute;
+        left:50%;
+        transform: translate(-50%, 0);
+        bottom: 2em;
+        background: #26ae5f;
+        color:#fff;
+        width:6em;
+        height:1.8em;
+        line-height: 1.8em;
+        text-align: center;
+        border-radius: 0.9em;
+        font-size:0.875em;
+        &:hover{
+            color:#e85356;
+            cursor: pointer;
+        }
+    }
+    &__citybox{
+        position: absolute;
+        top:0;
+        left:0;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        &__switch{
+            position: absolute;
+            top:1.5em;
+            right:1.5em;
+            width:2.8em;
+            height:2.8em;
+            border-radius: 50%;
+            background: #fff url("../../../../../../icons/close.png") center center / 110%  content-box no-repeat;
+            &:hover{
+                cursor: pointer;
+                background-image: url("../../../../../../icons/close_act.png");
+            }
+        }
+    }
+}

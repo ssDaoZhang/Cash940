@@ -1,0 +1,47 @@
+.cashamount {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border: 2px solid #26ae5f;
+  width: 40em; }
+  .cashamount__content {
+    width: 100%; }
+    .cashamount__content__calendar {
+      display: flex;
+      margin: 0.5em;
+      align-items: center; }
+      .cashamount__content__calendar__btn {
+        background: #26ae5f;
+        color: #FFF;
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        font-weight: bold;
+        width: 4em; }
+        .cashamount__content__calendar__btn:hover {
+          cursor: pointer;
+          color: #e85356; }
+    .cashamount__content__title {
+      font-size: 0.875em;
+      height: 2em;
+      line-height: 2em;
+      color: #fff;
+      background: #26ae5f;
+      text-align: center; }
+    .cashamount__content__items {
+      display: flex;
+      flex-wrap: wrap; }
+      .cashamount__content__items span {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        padding: 0 0.5em;
+        margin: 0.5em 0.8em;
+        background: #ccc;
+        color: #333; }
+        .cashamount__content__items span:hover {
+          color: #e85356;
+          cursor: pointer; }

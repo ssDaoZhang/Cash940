@@ -1,0 +1,244 @@
+.citybox{
+    background: #fff;
+    width:25em;
+    height:40em;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    &__title{
+        font-size:0.875em;
+        font-weight: bold;
+        width: 100%;
+        height: 2.5em;
+        line-height: 2.5em;
+        background:#aafdaf;
+        text-align: center;
+        border-bottom:1px solid #ccc;
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1), 0 1px rgba(0,0,0,0.1);
+    }
+    &__habitbox{
+        margin:1.5em 1em  1em 1em;
+        i{
+            font-style : normal;
+            font-size : 0.875em;
+            color:#aaa;
+            span{
+                font-size : 0.85em;
+                color:#aaa;
+            }
+        }
+    }
+    &__habit{
+        margin-top : 0.2em;
+        padding : 0.3em 0;
+        border-top : 1px solid #eee;
+        border-bottom : 1px solid #eee;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap : wrap;
+        height:6.445em;
+        span{
+            // flex:1;
+            font-size : 0.75em;
+            padding: 0.2em 0.5em;
+            margin: 0.4em 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 0.3em;
+            line-height: 1.5em;
+            height:1.5em;
+            color:#bbb;
+            &:hover{
+                color : #e85356;
+                border-color : #e85356;
+                cursor: pointer;
+            }
+        }
+    }
+    &__querybox{
+        // background: yellowgreen;
+        margin:0 1em;
+        i{
+            font-style : normal;
+        }
+        &__tirps{
+            // font-style : normal;
+            display: flex;
+            font-size : 0.875em;
+            color:#aaa;  
+            height: 1.8em;
+            line-height: 1.8em;
+            &__mess{
+                // display: block;
+                font-size: 0.75em;
+                height: 2.1em;
+                line-height: 2.1em;
+                display: flex;
+                &__ico{
+                    height: 2.1em;
+                    width: 2.1em;
+                    background:  #fff url("../../icons/tick.png") center center / 70%   content-box no-repeat;
+                }
+            }
+        }
+    }
+    &__query{
+        position: relative;
+        margin-top : 0.2em;
+        // padding-top : 0.3em;
+        // border-top : 1px solid #eee;
+        // background: red;
+        height: 24.3em;
+        overflow: hidden;
+        &__index{
+            position: absolute;
+            // padding-top: 0.5em;
+            left:0;
+            top:-1.5em;
+            width: 22em;
+            background: rgba(0,0,0,0.7);
+            padding: 0 0.5em 0.2em 0.5em;
+            border-radius: 0 0 1em 1em;
+            transition:300ms  all ease-out;
+            &__tirp{
+                // float: left;
+                display: block;
+                width: 100%;
+                height: 1.5em;
+                line-height: 1.5em;
+                text-align: center;
+                font-size:0.75em;
+                color:#fff;
+                font-weight: bold; 
+                // background: rgba(0,0,0,0.5);
+                &:hover{
+                    color:#e85356;
+                } 
+            }
+            &__box{
+                padding: 0.3em 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                // flex-direction: column;
+                .cqindex{
+                    font-size:0.75em;      
+                    color:#fff;  
+                    &:hover{
+                        color:#e85356;
+                    }          
+                }
+            }
+            // &::after{content:"";display:block;clear:both;}
+            &:hover{
+                top:0;
+                cursor: pointer;
+            }
+        }
+        &__search{
+            margin-top:2.8em; 
+            padding: 0 1em;
+            height:21.5em;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            &::-webkit-scrollbar{
+                width: 0;
+            }
+            &__provitem{
+                &__name{
+                    position: relative;
+                    font-size:0.75em;
+                    background: #26ae5f;
+                    color:#fff;
+                    font-weight: blod;
+                    display: block;
+                    padding: 0.5em 1em;
+                    border-top: 1px solid #ccc;
+                    
+                    i{
+                        display: block;
+                        position: absolute;
+                        top:60%;
+                        right:5%;
+                        transform: translate(0, -50%);
+                        width: 1.2em;
+                        height: 1.2em;
+                        background: #26ae5f url("../../icons/triangle.png") 0 0 / contain  content-box no-repeat;
+                    }
+                    .iconstr{
+                        background-image: url("../../icons/triangle_act.png");
+                    }
+                    span{
+                        display: block;
+                        position: absolute;
+                        top:50%;
+                        right:5%;
+                        transform: translate(0, -50%);
+                        width: 1.2em;
+                        height: 1.2em;
+                        background: #26ae5f url("../../icons/tick.png") 0 0 / contain  content-box no-repeat;
+                    }
+                    .iconcity{
+                        background-image: url("../../icons/tick_acti.png");
+                    }
+                    &:hover{
+                        color: #e85356;
+                        cursor: pointer;
+                    }
+                }
+                &__list{
+                    height : 0;
+                    overflow: hidden;
+                    &__ele{
+                        // font-size:0.75em;
+                        // color:#bbb;
+                        padding: 0 0 0 1.5em;
+                        height: 1.75em;
+                        display: flex;
+                        align-items: center;
+                        &__mess{
+                            flex : 1;
+                            font-size:0.75em;
+                            color:#bbb;
+                            padding: 0.5em 0;        
+                            &:hover{
+                                color:#e85356;
+                                cursor: pointer;
+                            }
+                        }
+                        &__ico{
+                            width: 1em;
+                            height: 1em;
+                            margin-right: 1em;
+                            background: #fff url("../../icons/tick.png") 0 0 / contain  content-box no-repeat;
+                            &:hover{
+                                cursor: pointer;
+                            }
+                            &--active{
+                                background-image: url("../../icons/tick_act.png");
+                            }
+                        }
+                        &:nth-of-type(n+2){
+                            border-top: 1px solid #ccc;
+                        }
+
+                    }
+                    &--active{
+                        height : auto;  
+                    }
+                }
+            }
+            &__tirps{
+                // width:10em;
+                height:6em;
+                background: #ccc;
+                color:#fff;
+                font-size:2em;
+                line-height: 6em;
+                text-align: center;
+                // position: relative;
+                // margin: 0;
+            }
+        }
+    }
+}

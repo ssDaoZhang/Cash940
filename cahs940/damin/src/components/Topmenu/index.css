@@ -1,0 +1,176 @@
+.topMenu {
+  position: relative;
+  width: 100%;
+  border-top: 2px solid #26ae5f; }
+  .topMenu__topWarp {
+    width: 100%;
+    height: 1.8em;
+    background: linear-gradient(to bottom, #eee, #efefef);
+    border-bottom: 0.0625em solid #eee;
+    box-shadow: 3px 1px 1px #ccc; }
+  .topMenu__top {
+    padding: 0.4em 0;
+    height: 1em;
+    background: linear-gradient(to bottom, #eee, #efefef);
+    border-bottom: 0.0625em solid #eee; }
+  .topMenu__useracc {
+    width: 14em;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    z-index: 1;
+    display: flex; }
+    .topMenu__useracc__acc {
+      flex: 1;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      height: 1.3em;
+      line-height: 1.3em;
+      text-align: center;
+      font-size: 0.75em;
+      margin-left: 2.2em;
+      width: 7em;
+      color: #333;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+      .topMenu__useracc__acc:hover {
+        color: #26ae5f;
+        cursor: pointer; }
+    .topMenu__useracc__leave {
+      border-right: 1px solid #ccc;
+      height: 1.3em;
+      line-height: 1.3em;
+      text-align: center;
+      font-size: 0.75em;
+      width: 7em;
+      color: #333; }
+      .topMenu__useracc__leave:hover {
+        color: #26ae5f;
+        cursor: pointer; }
+  .topMenu__lanlist {
+    z-index: 1;
+    height: 0;
+    overflow: hidden;
+    transition: all 100ms linear; }
+    .topMenu__lanlist li {
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      background: linear-gradient(to bottom, #eee, #efefef);
+      font-size: 0.75em;
+      width: 7em;
+      margin-left: 2.2em; }
+      .topMenu__lanlist li a {
+        color: #333; }
+      .topMenu__lanlist li:first-child {
+        padding-top: 0.5em; }
+      .topMenu__lanlist li:hover a {
+        color: #26ae5f; }
+  .topMenu__topItems {
+    float: right;
+    display: flex;
+    width: 22em; }
+  .topMenu__topbtn {
+    flex: 1;
+    font-size: 0.75em;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    color: #333;
+    padding-top: 0.1667em; }
+    .topMenu__topbtn:nth-child(n + 2) {
+      border-left: 1px solid #ccc; }
+    .topMenu__topbtn:hover {
+      color: #26ae5f; }
+  .topMenu__nav {
+    position: relative; }
+    .topMenu__nav span {
+      color: #333; }
+      .topMenu__nav span i {
+        display: inline-block;
+        height: 0.8em;
+        width: 0.8em;
+        background: #eee url("../../icons/arrow.png") 0 0/contain content-box no-repeat; }
+    .topMenu__nav:hover span {
+      color: #26ae5f; }
+    .topMenu__nav__list {
+      position: absolute;
+      top: 1.3em;
+      left: 0;
+      z-index: 1;
+      height: 0;
+      overflow: hidden;
+      transition: all 100ms linear; }
+      .topMenu__nav__list li {
+        height: 2.65em;
+        line-height: 2.65em;
+        text-align: center;
+        background: linear-gradient(to bottom, #eee, #efefef);
+        font-size: 0.75em;
+        width: 7em; }
+        .topMenu__nav__list li a {
+          color: #333; }
+        .topMenu__nav__list li:hover a {
+          color: #26ae5f; }
+    .topMenu__nav:hover .topMenu__nav__list {
+      height: 12.5em; }
+  .topMenu__mid {
+    margin-top: 0.125em;
+    height: 5em;
+    background: #fff; }
+    .topMenu__mid:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both; }
+  .topMenu__logo {
+    float: left;
+    height: 4.5em;
+    width: 4.5em;
+    margin: 0.25em;
+    background: #fff url("../../icons/logo.png") 0 0/contain content-box no-repeat;
+    border-radius: 50%;
+    margin-left: 2em; }
+  .topMenu__name {
+    float: left;
+    height: 5em;
+    width: 7em;
+    background: #fff url("../../icons/name.jpg") 0 50%/contain content-box no-repeat;
+    padding-left: 2em; }
+  .topMenu__search {
+    margin: 1.5em 0;
+    float: right;
+    width: 26.2em;
+    height: 1.8em; }
+    .topMenu__search input {
+      width: 27.41em;
+      height: 2.3em;
+      border: 1px solid #ccc;
+      font-size: 0.75em;
+      padding-right: 0.5em;
+      box-sizing: border-box;
+      padding-left: 0.75em; }
+    .topMenu__search__btn {
+      border: 1px solid #ccc;
+      display: inline-block;
+      width: 4.5em;
+      height: 1.75em;
+      line-height: 1.75em;
+      text-align: center;
+      background-color: #ccc;
+      margin-left: 0.5em;
+      border-radius: 0.2em;
+      font-weight: 500;
+      color: #555; }
+      .topMenu__search__btn i {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0.16em;
+        width: 1.5em;
+        height: 1.5625em;
+        background: url("../../icons/search.png") 0 50%/contain content-box no-repeat; }
+      .topMenu__search__btn:hover {
+        background-color: #26ae5f;
+        color: #FFF;
+        cursor: pointer; }

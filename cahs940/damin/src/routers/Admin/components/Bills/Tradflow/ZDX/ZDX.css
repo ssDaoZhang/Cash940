@@ -1,0 +1,57 @@
+.zdx {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: #fff;
+  padding: 1em 0; }
+  .zdx__title {
+    margin: 0 1.2em;
+    font-size: 0.875em;
+    height: 2em;
+    line-height: 2em;
+    background: #26ae5f;
+    color: #fff;
+    text-align: center; }
+  .zdx__warp {
+    margin-top: 1em;
+    height: 23em;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+  .zdx__item {
+    margin: 0 1.5em 0.8em 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    width: 18em;
+    overflow: hidden; }
+    .zdx__item:hover {
+      cursor: pointer; }
+    .zdx__item__warp1 {
+      padding-left: 0.8em;
+      height: 1.5em; }
+    .zdx__item__warp2 {
+      padding-right: 0.8em;
+      height: 1.5em; }
+    .zdx__item__it1 {
+      display: flex;
+      background: #26ae5f;
+      color: #fff;
+      justify-content: space-between;
+      align-items: center;
+      height: 1.5em; }
+      .zdx__item__it1__sp1 {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em; }
+    .zdx__item__it2 {
+      height: 4.5em;
+      overflow: hidden; }
+      .zdx__item__it2:hover {
+        background-color: #aafdaf; }
+      .zdx__item__it2__i1 {
+        height: 1.5em;
+        margin: 0.5em 0.5em; }
+        .zdx__item__it2__i1__sp1 {
+          height: 2em;
+          line-height: 2em;
+          font-size: 0.75em; }
